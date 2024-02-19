@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import tick from "../Images/Group tick.png"
 function Pcb() {
   return (
     <div className="">
@@ -48,7 +48,7 @@ function Pcb() {
                             PCB assembly and box build. EIS supports customers on PCB Assemblies on both turnkey and job
                             work basis.
                         </p>
-                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src="../Images/image 33.jpg" alt="Description 1"></img>
+                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src="src/Images/image 33.jpg" alt="Description 1"></img>
                         <img className="col-12 col-md-12 col-lg-12" src="image 33.jpg" alt="Description 2"></img>
                     </div>
 
@@ -192,7 +192,7 @@ function Pcb() {
 
 
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks  " src="Group.png"></img>
+                            <img className="ticks  " src={tick}/>
                             <div>
                                 <div>
                                     <p className=" words mt-0 mb-3 ">Latest Fuji NXT & AIMEX SMT Line</p>
@@ -202,7 +202,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={tick}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">In-line Automated Optical Inspection (AOI) SMT Line
