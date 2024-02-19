@@ -1,7 +1,7 @@
 import React from "react";
 import emf from "../Images/Group 3608.png"
 import building from "../Images/Group 2 (1).png"
-
+import black from "../Group 13780.png"
 function Home(){
     return(
         <div>
@@ -127,7 +127,7 @@ function Home(){
                 <div className="container  py-5" id="sub_row">
                     <div className="row ps-lg-5 ">
                         <div className="col-12 col-lg-5">
-                            <img src="Group 13780.png" className="img-fluid"  alt=""></img>
+                            <img src={black} className="img-fluid"  alt=""></img>
                         </div>
 
                         <div className="col-12 col-lg-4 ">
