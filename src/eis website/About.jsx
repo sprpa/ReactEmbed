@@ -16,7 +16,9 @@ import Group_13760 from "../Images/Group 13760.png"
 import Ellipse_4 from "../Images/Ellipse 4.png"
 import Ellipse_5 from "../Images/Ellipse 5.png"
 import Ellipse_6 from "../Images/Ellipse 6.png"
-
+import Vector_6 from "../Images/Vector 6.png"
+import Vector_7 from "../Images/Vector 7.png"
+import Vector_8 from "../Images/Vector 8.png"
 
 function About(){
     return(
@@ -473,14 +475,14 @@ function About(){
                                     <h6 className="text-center text-white demo17">SEZ</h6>
                                 </div>
                                 <div className="position-absolute demo18">
-                                    <img   src="Vector 7.png" alt=""></img>
+                                    <img   src={Vector_7} alt=""></img>
                                     <div className="position-absolute demo19">
                                         <h6 className="p3-dia-heading colo" >Exports to overseas customer</h6>
                                         <h6 className="p3-dia-decs">Zero Customs Duty & Taxes</h6>
                                     </div>
                                 </div>
                                 <div className="position-absolute demo20">
-                                    <img  src="Vector 8.png" alt=""></img>
+                                    <img  src={Vector_8} alt=""></img>
                                     <div className="position-absolute demo21">
                                         <h6 className="p3-dia-heading colo" >Foreign Supplier</h6>
                                         <h6 className=" p3">Zero customs duty</h6>
@@ -488,7 +490,7 @@ function About(){
                                 </div>
 
                                 <div className="position-absolute demo22">
-                                    <img src="Vector 6.png" alt=""></img>
+                                    <img src={Vector_6} alt=""></img>
                                     <div className="position-absolute demo23">
                                         <h6 className="text-end p3-dia-heading colo">Domestic supplier
                                             in another SEZ</h6>
@@ -496,7 +498,7 @@ function About(){
                                     </div>
                                 </div>
                                 <div  className="position-absolute demo24">
-                                    <img src="Vector 6.png" alt=""></img>
+                                    <img src={Vector_6} alt=""></img>
                                     <div className="position-absolute demo25">
                                         <h6 className="text-start p3-dia-heading colo">Customer in another SEZ location in India</h6>
                                             <h6 className="text-start p3-dia-decs" >Zero customs Duty & Taxes</h6>
