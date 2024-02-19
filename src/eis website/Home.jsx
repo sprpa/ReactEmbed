@@ -1,7 +1,8 @@
 import React from "react";
 import emf from "../Images/Group 3608.png"
 import building from "../Images/Group 2 (1).png"
-import black from "../Group 13780.png"
+import black from "../Images/Group 13780.png"
+import about from "../Images/ABOUT COMPANY.png"
 function Home(){
     return(
         <div>
@@ -110,7 +111,7 @@ function Home(){
             <section className="container-fluid position-relative" id="home_section_2">
                 <div className="row">
                     <div className="col-12 col-lg-8 pt-5">
-                        <img src="ABOUT COMPANY.png" className="img-fluid ps-5 pt-5 position-absolute name"  alt=""></img>
+                        <img src={about} className="img-fluid ps-5 pt-5 position-absolute name"  alt=""></img>
                     </div>
                 </div>
                 
