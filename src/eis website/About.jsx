@@ -1,6 +1,21 @@
 import React from "react";
 
-
+import group from "../Images/Group 2.png"
+import IMG_20190326_125922_1 from"../Images/IMG_20190326_125922 1 (1).png"
+import image_22 from "../Images/image 22.png"
+import Add_On from "../Images/Add On (1).png"
+import Group_13786 from "../Images/Group 13786.png"
+import Group_13757 from "../Images/Group 13757.png"
+import Group from "../Images/Group 13757.png"
+import Group_13785 from "../Images/Group 13785.png"
+import Group_13759 from "../Images/Group 13759.png"
+import union from "../Images/Union.png"
+import tick from "../Images/Group tick.png"
+import P1143588_1 from "../Images/P1143588 1.png"
+import Group_13760 from "../Images/Group 13760.png"
+import Ellipse_4 from "../Images/Ellipse 4.png"
+import Ellipse_5 from "../Images/Ellipse 5.png"
+import Ellipse_6 from "../Images/Ellipse 6.png"
 
 
 function About(){
@@ -8,7 +23,7 @@ function About(){
         <div>
             
             {/* section-1 */}
-            <section className="py-5 style" id="about_section-1">
+            <section className="py-5 style" id="about_section_1">
                 <div className="container">
                     <p className="about">About Company</p>
                     <h6 className="one">One of the Largest EMS Facilities in India</h6>
@@ -29,7 +44,7 @@ function About(){
                      </div>
                 </div>
                 <div className="position-absolute pos">
-                    <img src="Group 2.png" alt=""></img>
+                    <img src={group} alt="image"></img>
                 </div>
             </section>
            {/* section-2 */}
@@ -43,17 +58,17 @@ function About(){
                     <div className="row">
                             <div className="col-12 col-lg-4 mb-4">
                                 <div className="d-flex justify-content-center align-items-center">
-                                    <img src="IMG_20190326_125922 1 (1).png" className="img-fluid" alt=""></img>
+                                    <img src={IMG_20190326_125922_1} className="img-fluid" alt="image"></img>
                                 </div>
                             </div>
                         <div className="col-12 col-lg-4 mb-4">
                             <div className="d-flex justify-content-center align-items-center">
-                                <img src="image 22.png" className="img-fluid " alt=""></img>
+                                <img src={image_22} className="img-fluid " alt="image"></img>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 mb-4">
                             <div className="d-flex justify-content-center align-items-center">
-                                <img src="Add On (1).png" className="img-fluid" alt=""></img>
+                                <img src={Add_On} className="img-fluid" alt="image"></img>
                             </div>
                         </div>
                     </div>
@@ -100,7 +115,7 @@ function About(){
                     <div className="col-12 col-lg-4 mb-5">
                         <div className="d-flex justify-content-center ms-lg-5 align-items-center">
                         <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        <img className="img-fluid" src="Group 13786.png" height="286px" alt=""></img>
+                        <img className="img-fluid" src={Group_13786} height="286px" alt="image"></img>
                         </a>
                         </div>
                         <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -113,7 +128,7 @@ function About(){
                                 <div className="container">
                                 <div className="row">
                                     <div className="col-12 col-sm-4 col-lg-3">
-                                    <img className="img-fluid" src="Group 13786.png"  alt=""></img>
+                                    <img className="img-fluid" src={Group_13786}  alt="image"></img>
                                     </div>
                                     <div className="col-12 col-sm-8 col-lg-9 pt-4">
                                     <h6 className=" board-semhead">Board Members</h6>
@@ -158,21 +173,21 @@ function About(){
                         <div className="pt-5 d-flex flex-column justify-content-center ms-lg-5 align-items-center">
                         <h6 className="pt-3 name">S. Pulla Reddy</h6>
                         <p className="designation">Founder and Managing Director</p>
-                        <img src="Group 13757.png" height="68px" width="68px" className="mt-4" alt=""></img>
+                        <img src={Group_13757} height="68px" width="68px" className="mt-4" alt=""></img>
                         </div>
 
                     </div>
 
                     <div className="col-12 col-lg-4 mb-5 ">
                         <div className="d-flex justify-content-center align-items-center ">
-                        <img className="d-none d-lg-inline demo2" src="Union.png"  height="286.9px" alt=""></img>
+                        <img className="d-none d-lg-inline demo2" src={union}  height="286.9px" alt=""></img>
                         </div>
                     </div>
 
                     <div className="col-12 col-lg-4 mb-5">
                         <div className="d-flex justify-content-center me-lg-5 align-items-center">
                         <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                            <img className="img-fluid" src="Group 13785.png" height="286px" alt=""></img>
+                            <img className="img-fluid" src={Group_13785} height="286px" alt=""></img>
                         </a>
                         </div>
                         <div className="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -185,7 +200,7 @@ function About(){
                                 <div className="container">
                                 <div className="row">
                                     <div className="col-12 col-sm-4 col-lg-3">
-                                    <img className="img-fluid" src="Group 13785.png"  alt=""></img>
+                                    <img className="img-fluid" src={Group_13785}  alt=""></img>
                                     </div>
                                     <div className="col-12 col-sm-8 col-lg-9 pt-4">
                                     <h6 className=" board-semhead">Board Members</h6>
@@ -232,14 +247,14 @@ function About(){
                         <div className="pt-5 d-flex flex-column justify-content-center  align-items-center">
                         <h6 className="pt-3 name">Kalyana Putrevu </h6>
                         <p className="designation">Chief Operating Officer (COO)</p>
-                        <img src="Group 13757.png" height="68px" width="68px" className="mt-4" alt=""></img>
+                        <img src={Group} height="68px" width="68px" className="mt-4" alt=""></img>
                         </div>
 
                     </div>
                     </div>
                 </div>
                 <div className="scroll">
-                    <img src="Group 13759.png" className="img-fluid position-absolute demo5" alt=""></img>
+                    <img src={Group_13759} className="img-fluid position-absolute demo5" alt=""></img>
                 </div>
             </section>
             {/* section-4 */}
@@ -261,7 +276,7 @@ function About(){
                         <div className="col-12 col-lg-4">
                             <div className="d-flex mb-3">
                             <div className=" icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>End to End Manufacturing operations
@@ -271,7 +286,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Professional knowledge and experienced
@@ -281,7 +296,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>New Product Development and Scaling Up
@@ -291,7 +306,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Reduce product costs with our value engineering</p>
@@ -303,7 +318,7 @@ function About(){
                         <div className="col-12 col-lg-4">
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Our expert support in seamless transition
@@ -313,7 +328,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Expert help in case you have any technical
@@ -324,7 +339,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Robotic and manual Testing Infrastructure</p>
@@ -337,7 +352,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Automatic equipment for inserting and
@@ -349,7 +364,7 @@ function About(){
 
                             <div className="d-flex mb-3">
                             <div className="icon-img">
-                                <img src="Group.png" height="41.55px" width="42.28px" alt=""></img>
+                                <img src={tick} height="41.55px" width="42.28px" alt=""></img>
                             </div>
                             <div className="ms-4">
                                 <p>Modern lines suitable for the production of
@@ -428,12 +443,12 @@ function About(){
                     </div>
 
                     <div className="">
-                        <img  src="P1143588 1.png" class="w-100" alt=""></img>
+                        <img  src={P1143588_1} class="w-100" alt=""></img>
                     </div>
 
 
                     <div className="scroll">
-                        <img src="Group 13760.png" class="img-fluid position-absolute demo9"alt=""></img>
+                        <img src={Group_13760} class="img-fluid position-absolute demo9" alt=""></img>
                     </div>
                 
                 </div>
@@ -448,11 +463,11 @@ function About(){
                     <div className="d-none d-xl-block">
                         <div className="position-relative demo10" >
                             <div className="position-absolute demo11" >
-                            <img className="position-relative demo12" src="Ellipse 4.png" alt=""></img>
-                            <img className="position-absolute demo13"   src="Ellipse 5.png" alt=""></img>
+                            <img className="position-relative demo12" src={Ellipse_4} alt=""></img>
+                            <img className="position-absolute demo13"   src={Ellipse_5} alt=""></img>
                             
                             <div className="position-absolute demo14">
-                                <img  src="Ellipse 6.png" alt=""></img>
+                                <img  src={Ellipse_6} alt=""></img>
                                 <div className="position-absolute demo15">
                                     <h6 className="text-center text-white demo16" >EIS Location</h6>
                                     <h6 className="text-center text-white demo17">SEZ</h6>
