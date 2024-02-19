@@ -6,71 +6,7 @@ import React from "react";
 function About(){
     return(
         <div>
-            <nav className="navbar navbar-expand-xl sticky-top back" id="nav-bar">
-                <div className="container-fluid">
-                <a className="navbar-brand me-auto ps-lg-5 ps-3" href="index.html">
-                    <img src="Subtract.png" alt="Logo"  className="img-fluid"></img>
-                        <span className="text-black-50 ms-5 fs-6 fw-bold d-none d-md-inline">Call US:</span> <span class="text-black fs-6 fw-bold d-none d-md-inline">+91 70326 66100</span>
-                </a>
-                <div className="pe-3">
-                    <span><img src="Union.svg" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" alt=""></img></span>  
-                </div>
-        
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav position-relative mx-auto mb-2 mb-lg-0 gap-0 gap-xxl-3">
-                    <li className="nav-item ">
-                        <a className="nav-link fw-bold text-black-50" href="aboutus.html">About Us</a>
-                    </li>
-                    <li className="nav-item dropdown ">
-                        <a className="nav-link fw-bold text-black-50 " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Capabilities <span class="fs-6 ">+</span></a>
-                        <ul className="dropdown-menu position-absolute rounded-0 margin">
-                        <li className=""><a className="dropdown-item  px-5 " href="Npi-page.html">New Product Introduction</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="pcb-page.html">PCB Assembly & Box Build</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="Electroinc-manufacturing.html">Electronic Manufacturing</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="#">Flexible Volume High Mix</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="Product-testing.html">Product Testing</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="After_sales.html">After Sales & Warranty</a></li>
-                        </ul>
-                    </li>
-                    <li className="nav-item dropdown ">
-                        <a className="nav-link fw-bold text-black-50 " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Customer & Partners</a>
-                        <ul className="dropdown-menu position-absolute rounded-0 top">
-                        <li className=""><a class="dropdown-item  px-5 " href="Customer_Login.html">Customer Login</a></li>
-                        </ul>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="Galary.html">Gallery</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="Contact_Us.html">Contact Us</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="#">Blog</a>
-                    </li>
-                    </ul>
-
-                    <ul class="navbar-nav  ms-auto gap-2 me-3 mb-2 d-none d-xxl-flex mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-brands fa-facebook-square fs-5 text-black-50"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa-brands fa-instagram fs-5 text-success"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-brands fa-twitter fs-5 text-black-50"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-brands fa-youtube fs-5 text-black-50"></i></a>
-                        </li>
-                    </ul>
-                    <span className="navbar-text">
-                    <img src="Group 3597.svg" className="img-fluid d-none d-xxl-flex" alt=""></img>
-                    </span>
-
-                </div>
-
-                </div>
-            </nav>
+            
             {/* section-1 */}
             <section className="py-5 style" id="about_section-1">
                 <div className="container">
