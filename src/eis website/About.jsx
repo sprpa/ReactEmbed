@@ -24,6 +24,10 @@ import Frame_13745 from "../Images/Frame 13745.png"
 import Vector_3 from "../Images/Vector 3.png"
 import Union_1 from "../Images/Union (1).png"
 import Union_2 from "../Images/Union (2).png"
+import Group_13787 from "../Images/Group 13787.png"
+import IMG_20190326_125922_6 from "../Images/IMG_20190326_125922 6.png"
+import IMG_20190326_125922_3 from "../Images/IMG_20190326_125922 3.png"
+
 
 function About(){
     return(
@@ -560,7 +564,7 @@ function About(){
                         </div>
                     </div>
                     <div className="d-xl-none my-5">
-                        <img className="w-100 " src="Group 13787.png" alt=""></img>
+                        <img className="w-100 " src={Group_13787} alt=""></img>
                     </div>
                     <div className="d-flex flex-wrap  h-100  py-5">
                         <div className="col-12 col-lg-4 p-2 " >
@@ -584,58 +588,52 @@ function About(){
                 </section>
             </section>
             {/* section-7 */}
-            <section className="container-fluid p-0 emf" id="about_section-7">
-                <div className="demo46" >
-                    <div className="container py-5">
-                        <div className="row">
-                                <div className="col-12 col-lg-6">
-                                    <h6 className="certificates mt-5 color">CERTIFICATIONS & COMPLIANCES</h6>
-                                    <div className="ps-lg-3">
-                                        <h6 className=" recognition mt-4 color">Our Recognition & Awards</h6>
-                                        <div>
-                                            <h6 className="certified mt-5 color"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
-                                            <h6 className="certified mt-3 color">Certified for ISO 9001:2015 Quality Management Systems</h6>
-                                            <h6 className="certified mt-3 color">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
-                                            <h6 className="certified mt-3 color">Certified for 14001:2015 Environmental Management Systems</h6>
-                                            <h6 className="certified mt-3 color">Certified for 45001:2018 health and safety Systems</h6>
-                                            <h6 className="certified mt-3 color">Certified for ISO / IEC 27002-2013</h6>
-                                            <h6 className="certified mt-3 color">Certified for Responsible Business Alliance</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-lg-6">
-                                    <h6 className="certificates mt-5 color" >Our Gallery</h6>
-                                    <div className="ps-lg-3">
-                                        <h6 className=" recognition mt-4 color">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES.</h6>
-                                        <div className="row my-5">
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 demo47"  src="IMG_20190326_125922 3.png" alt=""></img>
-                                                    <img className="w-100 demo48"  src="IMG_20190326_125922 7.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 col-12 demo49"  src="Rectangle 1445.png" alt=""></img>
-                                                    <img className="w-100 demo50" src="Rectangle 1447.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 demo51"  src="Rectangle 1450.png" alt=""></img>
-                                                    <img className="w-100 demo52"  src="Rectangle 1456.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
+            <section className="container-fluid " id="about_section-7">
+                <div className="">
+                    <div className="row p-5">
+                        <div className="col-12 col-lg-7">
 
+                            <p className="text-uppercase certification mt-5">CERTIFICATIONS & COMPLIANCES</p>
+
+                            <div className="px-4">
+                                <p className=" recognition ">Our Recognition & Awards</p>
+                                <div className="certified py-5 ">
+                                    <p>Certified for IATF 16949:2016 International Automotive Task Force</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Compliance with ANSI / ESD 520.20-2021 Requirements Standards</p>
+                                    <p>Certified for 14001:2015 Environmental Management Systems</p>
+                                    <p>Certified for 45001:2018 health and safety Systems</p>
+                                    <p>Certified for ISO / IEC 27002-2013</p>
+                                    <p>Certified for Responsible Business Alliance</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-5">
+                            <p className="text-uppercase certification mt-5">Our Gallery</p>
+                            <div className="px-3">
+                                <p className=" recognition ">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES</p>
+                                <div className="row  mt-5">
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_6} alt=""></img>
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_3} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src="Rectangle 1445.png" alt=""></img>
+                                        <img className="w-100 mb-4" src="Rectangle 1456.png" alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src="Rectangle 1447.png" alt=""></img>
+                                        <img className="w-100 mb-4" src="Rectangle 1450.png" alt=""></img>
+                                    </div>
+                                </div>
+
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
+
             </section>
             {/* section-8 */}
             <section className="py-5 demo53"  id="about_section-8">  
