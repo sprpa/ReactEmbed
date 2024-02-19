@@ -27,6 +27,10 @@ import Union_2 from "../Images/Union (2).png"
 import Group_13787 from "../Images/Group 13787.png"
 import IMG_20190326_125922_6 from "../Images/IMG_20190326_125922 6.png"
 import IMG_20190326_125922_3 from "../Images/IMG_20190326_125922 3.png"
+import Rectangle_1445 from "../Images/Rectangle 1445.png"
+import Rectangle_1447 from "../Images/Rectangle 1447.png"
+import Rectangle_1450 from "../Images/Rectangle 1450.png"
+import Rectangle_1456 from "../Images/Rectangle 1456.png"
 
 
 function About(){
@@ -619,12 +623,12 @@ function About(){
                                         <img className="w-100 mb-4" src={IMG_20190326_125922_3} alt=""></img>
                                     </div>
                                     <div className="col-12 col-lg-4">
-                                        <img className="w-100 mb-4" src="Rectangle 1445.png" alt=""></img>
-                                        <img className="w-100 mb-4" src="Rectangle 1456.png" alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1445} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1456} alt=""></img>
                                     </div>
                                     <div className="col-12 col-lg-4">
-                                        <img className="w-100 mb-4" src="Rectangle 1447.png" alt=""></img>
-                                        <img className="w-100 mb-4" src="Rectangle 1450.png" alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1447} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1450} alt=""></img>
                                     </div>
                                 </div>
 
