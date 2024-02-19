@@ -31,7 +31,9 @@ import Rectangle_1445 from "../Images/Rectangle 1445.png"
 import Rectangle_1447 from "../Images/Rectangle 1447.png"
 import Rectangle_1450 from "../Images/Rectangle 1450.png"
 import Rectangle_1456 from "../Images/Rectangle 1456.png"
-
+import silicon from "../Images/silicon.png"
+import statron from "../Images/statron.png"
+import tenpao from "../Images/tenpao.png"
 
 function About(){
     return(
@@ -653,17 +655,17 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1">
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="silicon.png" alt=""></img>
+                                    <img className="" src={silicon} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="statron.png" alt=""></img>
+                                    <img className="" src={statron} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1">
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="tenpao.png" alt=""></img>
+                                    <img className="" src={tenpao} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
