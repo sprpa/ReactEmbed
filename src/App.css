@@ -3426,7 +3426,7 @@ color: #00923F;
 /* ABOUT PAGE */
 /* about_section-1 page css  */
 /*section-1*/
-#about_section-1 .about{
+#about_section_1 .about{
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
@@ -3435,7 +3435,7 @@ color: #00923F;
   text-align: left;
   color:#1AC664;
 }
-#about_section-1 .one{
+#about_section_1 .one{
   font-family: Montserrat;
 font-size: 54px;
 font-weight: 700;
@@ -3445,7 +3445,7 @@ text-align: left;
 
 }
 
-#about_section-1 .style{
+#about_section_1{
   background: #01813B;
   color:white
 }
