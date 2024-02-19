@@ -34,7 +34,29 @@ import Rectangle_1456 from "../Images/Rectangle 1456.png"
 import silicon from "../Images/silicon.png"
 import statron from "../Images/statron.png"
 import tenpao from "../Images/tenpao.png"
-
+import dtds from "../Images/dtds.png"
+import proxim from "../Images/proxim.png"
+import microsemi from "../Images/microsemi.png"
+import Wi2Wi from "../Images/Wi2Wi.png"
+import quintessential from "../Images/quintessential.png"
+import wipro from "../Images/wipro.png"
+import eximus from "../Images/eximus.png"
+import bs_techno from "../Images/bs-techno.png"
+import visiontek from "../Images/visiontek.png"
+import hbl from "../Images/hbl.png"
+import image_13 from "../Images/image 13.png"
+import ecil from "../Images/ecil.png"
+import totaka from "../Images/totaka.png"
+import image_11 from "../Images/image 11.png"
+import image_14 from "../Images/image 14.png"
+import image_12 from "../Images/image 12.png"
+import vedang from "../Images/vedang.png"
+import kernex from "../Images/kernex.png"
+import download from "../Images/download.png"
+import IMG_20190326_125922_8 from "../Images/IMG_20190326_125922 8.png"
+import IMG_20190326_125922_9 from "../Images/IMG_20190326_125922 9.png"
+import IMG_20190326_125922_10 from "../Images/IMG_20190326_125922 10.png"
+import IMG_20190326_125922_11 from "../Images/IMG_20190326_125922 11.png"
 function About(){
     return(
         <div>
@@ -670,7 +692,7 @@ function About(){
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="dtds.png" alt=""></img>
+                                    <img className="" src={dtds} alt=""></img>
                                 </div>
                                 </div>
             
@@ -678,22 +700,22 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex flex-column justify-content-center">
-                                    <img className="" src="proxim.png" alt=""></img>
+                                    <img className="" src={proxim} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="  d-flex flex-column justify-content-center ">
-                                    <img className="" src="microsemi.png" alt=""></img>
+                                    <img className="" src={microsemi} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex flex-column justify-content-center ">
-                                    <img className="" src="Wi2Wi.png" alt=""></img>
+                                    <img className="" src={Wi2Wi} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center ">
-                                    <img className="" src="quintessential.png" alt=""></img>
+                                    <img className="" src={quintessential} alt=""></img>
                                 </div>
                                 </div>
             
@@ -701,12 +723,12 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="wipro.png" alt=""></img>
+                                    <img className="" src={wipro} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="eximus.png" alt=""></img>
+                                    <img className="" src={eximus} alt=""></img>
                                 </div>
                                 </div>
 
@@ -723,22 +745,22 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex flex-column justify-content-center">
-                                    <img className="" src="bs-techno.png" alt=""></img>
+                                    <img className="" src={bs_techno} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="visiontek.png" alt=""></img>
+                                    <img className="" src={visiontek} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex flex-column justify-content-center">
-                                    <img className="" src="hbl.png" alt=""></img>
+                                    <img className="" src={hbl} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex  justify-content-center">
-                                    <img className="" src="image 13.png" alt=""></img>
+                                    <img className="" src={image_13} alt=""></img>
                                 </div>
                                 </div>
             
@@ -746,22 +768,22 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="ecil.png" alt=""></img>
+                                    <img className="" src={ecil} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className=" d-flex flex-column justify-content-center ">
-                                    <img className="" src="totaka.png" alt=""></img>
+                                    <img className="" src={totaka} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex justify-content-center ">
-                                    <img className=" " src="image 11.png" alt=""></img>
+                                    <img className=" " src={image_11} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1" >
                                 <div className="d-flex  justify-content-center ">
-                                    <img className="mt-4" src="image 14.png" alt=""></img>
+                                    <img className="mt-4" src={image_14} alt=""></img>
                                 </div>
                                 </div>
             
@@ -769,22 +791,22 @@ function About(){
                             <div className="col-4">
                                 <div className="card my-4 zero1">
                                 <div className=" d-flex flex-column justify-content-center">
-                                    <img className="" src="vedang.png" alt=""></img>
+                                    <img className="" src={vedang} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1">
                                 <div className="d-flex flex-column justify-content-center">
-                                    <img className="" src="kernex.png" alt=""></img>
+                                    <img className="" src={kernex} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1">
                                 <div className="d-flex  justify-content-center">
-                                    <img className="mt-4" src="image 12.png" alt=""></img>
+                                    <img className="mt-4" src={image_12} alt=""></img>
                                 </div>
                                 </div>
                                 <div className="card my-4 zero1">
                                 <div className="d-flex  justify-content-center">
-                                    <img className=" mt-4" src="download.png" alt=""></img>
+                                    <img className=" mt-4" src={download} alt=""></img>
                                 </div>
                                 </div>
                             </div>
@@ -812,7 +834,7 @@ function About(){
                     <div className="row mt-5">
                         <div className="col-12 col-lg-5 ps-lg-5 pe-lg-5 mb-5">
                             <h6 className="annual">Annual Medical Camp for Employees</h6>
-                            <img className="src" src="IMG_20190326_125922 8.png" alt=""></img>
+                            <img className="src" src={IMG_20190326_125922_8} alt=""></img>
                             <p className="section9-row-decs mt-4">Employee well-being programs [1] (also referred to as employee wellness programs) are structured initiatives put together by employers to...</p>
                             <p className="times">September 09, 2023</p>
                         </div>
@@ -820,7 +842,7 @@ function About(){
                             <div className="d-flex flex-column gap-4">
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className="img-fluid col-12 col-md-6" src="IMG_20190326_125922 9.png"  alt=""></img>
+                                        <img className="img-fluid col-12 col-md-6" src={IMG_20190326_125922_9}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Dussehra Celebrations</h6>
                                             <p className=" section9-row2-decs">Dussehra is celebrated on the tenth day or Dashami tithi of the shukla paksha of Ashwin month on the Hindu calendar. Navratri 2023...</p>
@@ -831,7 +853,7 @@ function About(){
                                 
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 10.png"  alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_10}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Kaizen Program</h6>
                                             <p className=" section9-row2-decs">Successful Kaizen program management involves a number of different elements. There is no single change or improvement that transforms a business.</p>
@@ -842,7 +864,7 @@ function About(){
                                 
                                 <div className="container-fluid p-0">
                                     <div  className="row ">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 11.png"  alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_11}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annua">MES workshop technology awareness program </h6>
                                             <p className=" section9-row2-decs">Timely delivery capacity of the factory, improving the circulation performance of materials, but also improving the rate of return on production.</p>
@@ -859,79 +881,7 @@ function About(){
                 
             </section>
 
-            <footer className="position-relative footer">
-                <div className="container  p-sm-3 p-md-4 p-lg-5  py-5">
-                    <div className="">
-                        <div className="row ">
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className=" address-layout ">
-                                    <h6 className="footer-heading mb-4 ">Registered Office</h6>
-                                    <p className="plant-address-des">Plot No.25/B, HardwarePark, Kancha
-                                        Imarat, Pahadi Shareef, Srisailam 
-                                        Highway, Hyderabad – 500005,
-                                        Telangana, India.</p>
-
-                                        <h6 className="footer-heading mb-4">Plant Address</h6>
-                                    <p className="plant-address-des">Plot No.5, Fab City SEZ, 
-                                        Srinagar Village, Maheshwaram Mandal, 
-                                        Ranga Reddy District, Hyderabad – 501359,
-                                        Telangana, India.</p>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="quicklink-layout">
-                                    <h6 className="quick-head">Quick links</h6>
-                                    <p className="des-link m-0">Home</p>
-                                    <p className="des-link m-0">About us</p>  
-                                    <p className="des-link m-0">Capabilities</p> 
-                                    <p className="des-link m-0">Facilities</p>
-                                    <p className="des-link m-0">Industries</p>
-                                    <p className="des-link m-0">Gallery</p>
-                                    <p className="des-link m-0">Clients</p>
-                                    <p className="des-link m-0">Contact Us</p>
-                                    <p className="des-link m-0">Blog</p>
-
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="contact-layout">
-                                    <h6 className="contact-head">Contact Us</h6>
-                                    <h6 className="contact-phone">+91-7032666100</h6>
-                                    <h6 className="contact-email">mail: enquiry@embedits.com</h6>
-                                    <h6 className="social">Social</h6>
-                                    <div className="d-flex justify-content-between mt-5 width">
-                                        <i className="fb-layout fas fa-brands fa-facebook-f"></i>
-                                        <i className="insta-layout fas fa-brands fa-instagram"></i>
-                                        <i className="twi-layout fas fa-brands fa-twitter"></i>
-                                        <i className="you-layout fas fa-brands fa-youtube"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="location-layout">
-                                    <h6 className="location-head">Location</h6>
-                                    <div className="location-map mt-3">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15245.827696226495!2d78.4921026!3d17.1966093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba4d8b485172d%3A0x935b54b1d7579269!2sEmbedded%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1703761792241!5m2!1sen!2sin" width="100%" height="290" /*style="border:0;"*/ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="customer-login">
-                    <div className=" whats-app-icon login">
-                        <img className="img-fluid " src="Group 3706.png" alt=""></img>
-                    </div> 
-                </div>
-                
-
-                <div className="copy">
-                    <h6 className="copyright py-4 text-center m-0">© 2023 embedits.com, All rights reserved</h6>
-
-                </div>
-            </footer>
+           
 
 
         
