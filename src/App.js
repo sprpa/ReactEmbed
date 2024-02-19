@@ -1,13 +1,14 @@
 
 
 import './App.css';
+import Home from './eis website/Home';
 
-import Pcb from './eis website/pcb';
+
 
 function App() {
   return (
     <div className="App">
-   <Pcb/>
+   <Home/>
      
     </div>
   );

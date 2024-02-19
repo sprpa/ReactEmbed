@@ -1,5 +1,5 @@
 import React from "react";
-
+import emf from "../Images/Group 3608.png"
 
 
 function Home(){
@@ -92,7 +92,7 @@ function Home(){
                     
                         <div className="col-12 col-lg-6 py-5">
                             <div className="position-absolute bottom-0 end-0">
-                                <img className="img-fluid " src="Group 3608.png"  alt=""></img>
+                                <img className="img-fluid " src={emf}  alt=""></img>
                             </div>
                             <div className="scroll">
                                 <div className="" >
