@@ -48,7 +48,7 @@ function Pcb() {
                             PCB assembly and box build. EIS supports customers on PCB Assemblies on both turnkey and job
                             work basis.
                         </p>
-                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src="P1143638 2.png" alt="Description 1"></img>
+                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src="../Images/image 33.jpg" alt="Description 1"></img>
                         <img className="col-12 col-md-12 col-lg-12" src="image 33.jpg" alt="Description 2"></img>
                     </div>
 
