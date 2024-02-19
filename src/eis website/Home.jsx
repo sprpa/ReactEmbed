@@ -1,6 +1,6 @@
 import React from "react";
 import emf from "../Images/Group 3608.png"
-
+import building from "../Images/Group 2 (1).png"
 
 function Home(){
     return(
@@ -96,7 +96,7 @@ function Home(){
                             </div>
                             <div className="scroll">
                                 <div className="" >
-                                    <img className="scroll-img" src="Group 2 (1).png" alt=""></img>
+                                    <img className="scroll-img" src={building} alt=""></img>
                                 </div>
                             </div>
                             
