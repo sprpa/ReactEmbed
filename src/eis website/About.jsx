@@ -19,6 +19,11 @@ import Ellipse_6 from "../Images/Ellipse 6.png"
 import Vector_6 from "../Images/Vector 6.png"
 import Vector_7 from "../Images/Vector 7.png"
 import Vector_8 from "../Images/Vector 8.png"
+import Vector_1 from "../Images/Vector 1.png"
+import Frame_13745 from "../Images/Frame 13745.png"
+import Vector_3 from "../Images/Vector 3.png"
+import Union_1 from "../Images/Union (1).png"
+import Union_2 from "../Images/Union (2).png"
 
 function About(){
     return(
@@ -505,24 +510,24 @@ function About(){
                                     </div>
                                 </div>
                                 <div className="position-absolute demo26">
-                                    <img src="Vector 1.png" alt=""></img>
+                                    <img src={Vector_1} alt=""></img>
                                 </div>
                                 <div className="position-absolute demo27">
-                                    <img src="Frame 13745.png" alt=""></img>
+                                    <img src={Frame_13745} alt=""></img>
                                     <div className="position-absolute demo28">
                                         <h6 className="text-end colo">Domestic Supplier in Non-SEZ area</h6>
                                             <h6 className="text-end p3-dia-decs" >Zero customs duty IGST May Applicable</h6>
                                     </div>
                                 </div>
                                 <div className="position-absolute demo29">
-                                    <img src="Vector 3.png" alt=""></img>
+                                    <img src={Vector_3} alt=""></img>
                                     <div className="position-absolute demo30">
                                         <h6 className="text-start p3-dia-heading colo">Local customer in Non-SEZ area</h6>
                                             <h6 className="text-start p3-dia-decs" >Customs Duty / IGST as Applicable</h6>
                                     </div>
                                 </div>
                                 <div className="position-absolute demo31">
-                                    <img className="position-relative demo32" src="Union (1).png" alt=""></img>
+                                    <img className="position-relative demo32" src={Union_1} alt=""></img>
                                     <div className="position-absolute demo33">
                                         <h6 className="text-end zero-tax" >Zero Inbound Duty & Tax</h6>
                                     </div>
@@ -531,7 +536,7 @@ function About(){
                                     </div>
                                 </div>
                                 <div className="position-absolute demo35">
-                                    <img className="position-relative demo36" src="Union (2).png" alt=""></img>
+                                    <img className="position-relative demo36" src={Union_2} alt=""></img>
                                     <div className="position-absolute demo37" >
                                         <h6 className="text-start zero-tax" >Faster Clearances
                                             at Ports</h6>
