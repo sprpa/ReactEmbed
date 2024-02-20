@@ -1007,3 +1007,328 @@ color: #4D4D4D;
     color: rgba(0, 0, 0, 1);
 }
 
+/* ELECTRONIC MANUFACTURING */
+#emf_section_1 .about{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.35em;
+    text-align: left;
+    color:#1AC664;
+}
+#emf_section_1 .one{
+    font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+#emf_section_1{
+    background: #01813B;
+    color:white
+}
+.emf #section_2 {
+      background-image: url(Images/main.jpg);
+      background-size: cover;
+      height: 957px;
+}
+.emf #section_2 .service{
+      bottom: 0%;  background: rgba(1, 129, 59, 0.85);
+}
+.emf #section_2 .group{
+      top: 45%; right: 3%;
+}
+.emf #section_2 .section2-content {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 47px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: white;
+}
+.emf #section_3 .section3-heading {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0.35em;
+      text-align: center;
+      color: rgba(45, 45, 45, 1);
+      text-transform: uppercase;
+}
+.emf #section_3 .section3-heading2 {
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 68px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: rgba(0, 0, 0, 1);
+}
+.emf #section_3 .service-icons svg{
+      height: 50px !important;
+      width: 50px !important;
+      margin-top: 13%;
+      margin-left: 10%;
+}
+.emf #section_3 .card1 {
+      height: 159px;
+      background-color: rgba(1, 129, 59, 1);
+      border-radius: 0%;
+}
+.emf #section_3 .card-text-1 {
+      color: #FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      margin-top: 200px ;
+      
+}
+.emf #section_3 .card2 {
+      height: 159px;
+      flex-shrink: 0;
+      background: #00A94D;
+      border-radius: 0%;
+}
+.emf #section_3 .card-text-2 {
+      color: #FFF;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      margin-top: 15%;
+}
+.emf #section_3 .card3 {
+      height: 159px;
+      flex-shrink: 0;
+      background: #00A94D;
+      border-radius: 0%;
+}
+.emf #section_3 .card-text-3 {
+      color: #FFF;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+      margin-top: 50px;
+}
+.emf #section_4 .row1-heading {
+      color: #2D2D2D;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      /* 54px */
+}
+.emf #section_4 .row1-decs {
+      color: #2D2D2D;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      /* 27px */
+}
+.emf #section_4 .row2-heading {
+      color: #2D2D2D;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      /* 54px */
+}
+.emf #section_4 .row2-image {
+      background: url(Images/image\ 36.jpg), lightgray 0px -64.258px / 123.249% 133.615% no-repeat;
+      width: 100%;
+}
+.emf #section_4 .row2-decs {
+      color: #2D2D2D;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      /* 27px */
+}
+#section_4 .row1-image {
+      background: url(Images/image\ 35.jpg), lightgray 50% / cover no-repeat;
+      width: 100%;
+}
+.p6-flu{
+      background-image: url(Images/Fuji\ NXTII\ 3\ \(1\).png);
+      background-size:cover !important;
+}
+.p6-rgb{
+      background-color:rgba(1, 100, 46, 0.69);
+}
+.p6-ico{
+      width: 100%;
+      color: #FFFFFF;
+      font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.p6-our{
+      font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.35em;
+  text-align: left;
+  color:#FFFFFF
+}
+#section_7 .setion7-heading {
+      color: #056732;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 200%;
+      /* 36px */
+      letter-spacing: 6.3px;
+}
+#section_7 .des-heading {
+      color: #2D2D2D;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%;
+      /* 49.5px */
+}
+#section_7 .icon-content {
+      color: #2D2D2D;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      width: 160px;
+}
+#section_7 {
+      background-image:url(Images/IMG_20190326_125922\ 2.png);
+}
+#section_7 .flex{
+      width: 500px;
+      height: 400px;
+      top: 6126px;
+      left: 205px;
+  
+}
+#emf_section-8{
+    position: relative;
+  
+  
+    background-repeat: repeat;
+    background-image: url('Images/IMG_20190326_125922\ 2.png');
+}
+#emf_section-8::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-color: #01813B;
+    z-index: -1;
+}
+#emf_section-8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    z-index: -1;
+}  
+#emf_section-8 .certification {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  
+    letter-spacing: 0.35em;
+    text-align: left;
+    color: #FFFFFF;
+}
+#emf_section-8 .recognition {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+  
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  
+  
+}
+#emf_section-8 .certified {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  
+}
+.emf #section_10.demo54{
+    color: #1AC664;
+    background-color: #000000;
+}
+.emf #section_10 .news{
+    font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.35em;
+  text-align: left;
+  color:#056732;
+  
+}
+.emf #section_10 .annual{
+    font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#2D2D2D
+}
+.emf #section_10 .annua{
+    font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#2D2D2D
+}
+.emf #section_10 .times{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00923F;    
+  
+}
+.emf #section_10 .get{
+    width: 175px;
+  height: 52px;
+  top: 10235px;
+  left: 1565px;
+  color: #00923F;
+}
+.emf #section_10 .src{
+    width: 350px;
+    height: 244px;
+    top: 9719px;
+    left: 240px;
+}
+

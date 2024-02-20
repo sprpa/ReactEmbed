@@ -24,7 +24,7 @@ function ElectronicManufacturing(){
             
 
             
-            <section className=" py-4"  id="em_section_1">
+            <section className=" py-4"  id="emf_section_1">
                 <div className="container">
                     <p className="about">CAPABILITIES</p>
                     <h6 className="one">
@@ -451,7 +451,7 @@ function ElectronicManufacturing(){
 
             </section>
             
-            <section className="container-fluid " id="emf_section-7">
+            <section className="container-fluid " id="emf_section-8">
                 <div className="">
                     <div className="row p-5">
                         <div className="col-12 col-lg-7">
