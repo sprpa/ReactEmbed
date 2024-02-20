@@ -2,14 +2,14 @@
 
 import './App.css';
 import About from './eis website/About';
-import Home from './eis website/Home';
+import Contact from './eis website/Contact';
 
 
 
 function App() {
   return (
     <div className="App">
-   <About/>
+   <Contact />
      
     </div>
   );
