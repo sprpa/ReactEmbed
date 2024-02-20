@@ -8,6 +8,17 @@ import mask from  "../Images/Mask group.png"
 import image from "../Images/IMG_20190326_125922 1.png"
 import Add from "../Images/Add On.png"
 import fujii from "../Images/Fuji NXTII 1.png"
+import image_1 from "../Images/IMG_20180820_143020 1.png"
+import image_2 from "../Images/IMG_20180820_143027 1.png"
+import image_3 from "../Images/Rectangle 1425.png"
+
+
+
+
+
+
+
+
 function Home(){
     return(
         <div>
@@ -223,7 +234,7 @@ function Home(){
             {/* error */}
             
             {/* section-5 */}
-            <section className="container-fluid p-2 p-sm-3 p-md-4 p-lg-5 position-relative" id="home_section_5">
+            <section className="container-fluid p-2 p-sm-3 p-md-4 p-lg-5 position-relative " id="home_section_5">
         
                 <div className="container py-5">
                     <div className="head">
@@ -316,13 +327,13 @@ function Home(){
                             </div>
                                 <div className="col-12 col-lg-3 ps-4 pt-5">
                                     <div className="image1 mb-5">
-                                        <img src="IMG_20180820_143020 1.png" className="img-fluid w-100" height="197px" alt=""></img>
+                                        <img src={image_1} className="img-fluid w-100" height="197px" alt=""></img>
                                     </div>
                                     <div className="image2 mb-5">
-                                        <img src="IMG_20180820_143027 1.png" className="img-fluid w-100" height="197px" alt=""></img>
+                                        <img src={image_2} className="img-fluid w-100" height="197px" alt=""></img>
                                     </div>
                                     <div className="image3 mb-5">
-                                        <img src="Rectangle 1425.png" className="img-fluid w-100" height="197px" alt=""></img>
+                                        <img src={image_3} className="img-fluid w-100" height="197px" alt=""></img>
                                     </div>
                                 </div>
 
