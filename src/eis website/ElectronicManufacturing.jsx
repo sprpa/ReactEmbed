@@ -23,7 +23,7 @@ function ElectronicManufacturing(){
         <div className="emf">
             
 
-            {/* head section */}
+            
             <section className=" py-4"  id="em_section_1">
                 <div className="container">
                     <p className="about">CAPABILITIES</p>
@@ -33,11 +33,11 @@ function ElectronicManufacturing(){
                 </div>
             </section>
 
-            {/* section-2 */}
-            <section className="container-fluid content p-0 position-relative" id="section_2" /*style="background-image:url(images/main.jpg) !important ;"*/>
+            
+            <section className="container-fluid content p-0 position-relative" id="section_2" >
 
                 <div className="d-flex justify-content-center ">
-                    <div className=" container position-absolute service" /*style="bottom: 0%;  background: rgba(1, 129, 59, 0.85);"*/>
+                    <div className=" container position-absolute service" >
                         <div className="py-4 px-3">
                             <h6 className="section2-content">
                                 EIS Services refer to a comprehensive range of services provided by 
@@ -49,13 +49,13 @@ function ElectronicManufacturing(){
                         </div>
                     </div>
                 </div>
-                <div className="position-absolute group" /*style="top: 45%; right: 3%;"*/>
+                <div className="position-absolute group">
                     <img src={Group_2} alt=""></img>
                 </div>
             </section>
 
-            {/* section-3 */}
-            <section className="py-5" /*style="background-color: #e3e3e3;"*/ id="section_3">
+            
+            <section className="py-5"  id="section_3">
                 <div className="container">
                     <h6 className="section3-heading">our service offerings</h6>
                     <h6 className="section3-heading2">Electronic  Manufacturing offers:</h6>
@@ -68,19 +68,19 @@ function ElectronicManufacturing(){
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4" >
                                                 <h6 className="card-text-3 pt-2 pt-sm-3">Printed circuit board assembly (PCBA)</h6>
                                             </div>
                                         </div>
                                 </div>
 
-                                <div className="card2 " /*style="background: #00A94D !important;"*/>
+                                <div className="card2 " >
                                         <div className="d-flex  service-icons">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4">
                                                 <h6 className="card-text-3">Equipped with surface mount technology (SMT) and plated through hole boards (PTH)</h6>
                                             </div>
                                         </div>
@@ -88,13 +88,13 @@ function ElectronicManufacturing(){
 
                             </div>
                             <div className="col-12 col-sm-12 col-md-12 col-lg-4 service-icons ">
-                                <div className="card3  mb-3  "  /*style="background: #00A94D !important;"*/>
+                                <div className="card3  mb-3  "  >
                                 <div className="d-flex  service-icons">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4" >
                                                 <h6 className="card-text-3">Electronic Cable & Harness Assembly Design and Processes</h6>
                                             </div>
                                         </div>
@@ -106,19 +106,19 @@ function ElectronicManufacturing(){
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4">
                                                 <h6 className="card-text-3 pt-2 pt-lg-3">Conformal/ Protective coating</h6>
                                             </div>
                                         </div>
                                 </div>
                                 
-                                <div className="card1   mb-3 "  /*style="background: #00A94D !important;"*/>
+                                <div className="card1   mb-3 " >
                                         <div className="d-flex  service-icons">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 300px !important;"*/>
+                                            <div className="ms-4" >
                                                 <h6 className="card-text-3">IPC 7711 Certified Rework Operators. IPC610 Certified Engineers</h6>
                                             </div>
                                         </div>
@@ -131,18 +131,18 @@ function ElectronicManufacturing(){
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4">
                                                 <h6 className="card-text-3 pt-2 pt-lg-3">Box Build Assemblies</h6>
                                             </div>
                                         </div>
                                 </div>
-                                <div className="card1  mb-3 "  /*style="background: #00A94D !important;"*/>
+                                <div className="card1  mb-3 "  >
                                         <div className="d-flex  service-icons">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
                                                 <path d="M41.0968 4.61277L21.6953 24.0143L13.6394 15.9636C12.964 15.2883 11.8654 15.2883 11.1901 15.9636C10.5148 16.6389 10.5148 17.7375 11.1901 18.4129L20.4707 27.6936C20.8113 28.0341 21.2506 28.1988 21.6953 28.1988C22.14 28.1988 22.5794 28.0287 22.9199 27.6936L43.5511 7.06725C44.2265 6.39193 44.2265 5.29332 43.5511 4.61797C42.8701 3.9369 41.7776 3.9369 41.0966 4.61222L41.0968 4.61277Z" fill="white"/>
                                                 <path d="M21.7123 3.4655C26.078 3.4655 30.0813 5.02488 33.2169 7.60596L35.6773 5.14559C31.9157 1.93868 27.0501 0 21.7123 0C9.81154 0.000383029 0.125 9.68742 0.125 21.5873C0.125 33.4872 9.81203 43.1746 21.7123 43.1746C33.6121 43.1746 43.2829 33.4876 43.2829 21.5873C43.2829 18.814 42.7612 16.1671 41.7948 13.7236L39.0766 16.4418C39.56 18.0729 39.8235 19.8027 39.8235 21.5874C39.8235 31.5819 31.6963 39.7092 21.7184 39.7092C11.724 39.7092 3.5966 31.5819 3.5966 21.5874C3.59085 11.593 11.7181 3.4656 21.7125 3.4656L21.7123 3.4655Z" fill="white"/>
                                             </svg>
-                                            <div className="ms-4" /*style="width: 280px !important;"*/>
+                                            <div className="ms-4" >
                                                 <h6 className="card-text-3">Robotic and Manual Testing and inspection services</h6>
                                             </div>
                                         </div>
@@ -157,7 +157,7 @@ function ElectronicManufacturing(){
 
 
             </section>
-            {/* section-4 */}
+           
             <section id="section_4">
                 <div className="container pt-5 ">
                     <div className="row">
