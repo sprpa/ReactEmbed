@@ -2,7 +2,19 @@ import React from "react";
 
 import Group_2 from "../Images/Group 2.png"
 import Group_13570 from "../Images/Group 13570.svg"
-import 4394181 from "../"
+import f4394181 from "../Images/4394181 1.png"
+import Group_12693 from "../Images/Group 12693.svg"
+import P1143581_1 from "../Images/P1143581 1.png"
+import IMG_20190326_125922_6 from "../Images/IMG_20190326_125922 6.png"
+import IMG_20190326_125922_3 from "../Images/IMG_20190326_125922 3.png"
+import Rectangle_1445 from "../Images/Rectangle 1445.png"
+import Rectangle_1447 from "../Images/Rectangle 1447.png"
+import Rectangle_1450 from "../Images/Rectangle 1450.png"
+import Rectangle_1456 from "../Images/Rectangle 1456.png"
+import IMG_20190326_125922_8 from "../Images/IMG_20190326_125922 8.png"
+import IMG_20190326_125922_9 from "../Images/IMG_20190326_125922 9.png"
+import IMG_20190326_125922_10 from "../Images/IMG_20190326_125922 10.png"
+import IMG_20190326_125922_11 from "../Images/IMG_20190326_125922 11.png"
 
 function Sales() {
     return (
@@ -16,7 +28,7 @@ function Sales() {
                 </div>
             </header>
 
-            <section className="position-relative afterimg">
+            <section className="position-relative" id="areasales_section-1">
                 <div className="d-flex justify-content-center">
                     <div className=" container position-absolute p-2 p-sm-3 p-lg-5 afterback" >
                         <p className="p2-description afterwe">We offer after-sales support and warranty services abiding by the contractual obligations with the customers. Our team will be upright in offering any kind of technical and logistics support to the customers.</p>
@@ -60,7 +72,7 @@ function Sales() {
                         <div className="col-12 col-md-4 mb-3">
                             <div className="card ali">
                                 <div className=" section2-img">
-                                    <img src={4394181} alt="4394181" className="mt-5  img-fluid"></img>
+                                    <img src={f4394181} alt="4394181" className="mt-5  img-fluid"></img>
                                 </div>
                                 <div className="card-body">
                                     <div className="card-text">
@@ -76,7 +88,7 @@ function Sales() {
                         <div className="col-12 col-md-4 mb-3">
                             <div className="card ali">
                                 <div className=" section2-img">
-                                    <img src="Group 12693.svg" alt="12693" className="mt-5 img-fluid"></img>
+                                    <img src={Group_12693} alt="12693" className="mt-5 img-fluid"></img>
                                 </div>
                                 <div className="card-body">
                                     <div className="card-text">
@@ -92,7 +104,7 @@ function Sales() {
                 </div>
             </section>
 
-            <section className="py-5 position-relative sty">
+            <section className="py-5 position-relative" id="areasales_section-3">
                 <div className="container mt-5">
                     <div className="row py-5">
                         <div className="col-12 col-lg-6 mb-2 mb-lg-5">
@@ -117,14 +129,11 @@ function Sales() {
                     </div>
 
                 </div>
-                <div className="position-absolute bot">
-                    <button className="btn py-2 px-4 colo">Talk To Us</button>
-                </div>
 
 
             </section>
 
-            <section className="container-fluid p-0 p6-flu">
+            <section className="container-fluid p-0 p6-flu" id="areasales_section-4">
                 <div className="py-3 py-lg-5 p6-rgb">
                     <div className="container py-3 py-lg-5">
                         <h6 className="pt-5 p6-our">OUR FEATURES</h6>
@@ -260,7 +269,7 @@ function Sales() {
                 </div>
             </section>
 
-            <section className="py-5" id="section_7">
+            <section className="py-5" id="areasales_section_7">
                 <div className="container py-5">
                     <h6 className="setion7-heading">OUR PRODUCT RANGE</h6>
                     <div className="row ps-lg-5 mt-5 pb-lg-5">
@@ -268,7 +277,7 @@ function Sales() {
                             <p className="des-heading">Our boards are being used in sophisticated
                                 products catering for various commercial
                                 and industrial segments.</p>
-                            <img className="mt-4 px-2 pt-3 pb-5 flex" src="P1143581 1.png" alt=""></img>
+                            <img className="mt-4 px-2 pt-3 pb-5 flex" src={P1143581_1} alt=""></img>
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -379,67 +388,61 @@ function Sales() {
 
             </section>
 
-            <section className="container-fluid p-0 emf" id="p_section-8">
-                <div className="demo46">
-                    <div className="container py-5">
-                        <div className="row">
-                            <div className="col-12 col-lg-6">
-                                <h6 className="certificates mt-5 color">CERTIFICATIONS & COMPLIANCES</h6>
-                                <div className="ps-lg-3">
-                                    <h6 className=" recognition mt-4 color">Our Recognition & Awards</h6>
-                                    <div>
-                                        <h6 className="certified mt-5 color"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
-                                        <h6 className="certified mt-3 color">Certified for ISO 9001:2015 Quality Management Systems</h6>
-                                        <h6 className="certified mt-3 color">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
-                                        <h6 className="certified mt-3 color">Certified for 14001:2015 Environmental Management Systems</h6>
-                                        <h6 className="certified mt-3 color">Certified for 45001:2018 health and safety Systems</h6>
-                                        <h6 className="certified mt-3 color">Certified for ISO / IEC 27002-2013</h6>
-                                        <h6 className="certified mt-3 color">Certified for Responsible Business Alliance</h6>
-                                    </div>
+            <section className="container-fluid " id="areasales_section-8">
+                <div className="">
+                    <div className="row p-5">
+                        <div className="col-12 col-lg-7">
+
+                            <p className="text-uppercase certification mt-5">CERTIFICATIONS & COMPLIANCES</p>
+
+                            <div className="px-4">
+                                <p className=" recognition ">Our Recognition & Awards</p>
+                                <div className="certified py-5 ">
+                                    <p>Certified for IATF 16949:2016 International Automotive Task Force</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Compliance with ANSI / ESD 520.20-2021 Requirements Standards</p>
+                                    <p>Certified for 14001:2015 Environmental Management Systems</p>
+                                    <p>Certified for 45001:2018 health and safety Systems</p>
+                                    <p>Certified for ISO / IEC 27002-2013</p>
+                                    <p>Certified for Responsible Business Alliance</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6">
-                                <h6 className="certificates mt-5 color" >Our Gallery</h6>
-                                <div className="ps-lg-3">
-                                    <h6 className=" recognition mt-4 color">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES.</h6>
-                                    <div className="row my-5">
-                                        <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                            <div className="d-flex flex-column gap-3">
-                                                <img className="w-100 demo47" src="IMG_20190326_125922 3.png" alt=""></img>
-                                                <img className="w-100 demo47" src="IMG_20190326_125922 7.png" alt=""></img>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                            <div className="d-flex flex-column gap-3">
-                                                <img className="w-100 col-12 demo47" src="Rectangle 1445.png" alt=""></img>
-                                                <img className="w-100 demo47" src="Rectangle 1447.png" alt=""></img>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                            <div className="d-flex flex-column gap-3">
-                                                <img className="w-100 demo47" src="Rectangle 1450.png" alt=""></img>
-                                                <img className="w-100 demo47" src="Rectangle 1456.png" alt=""></img>
-                                            </div>
-                                        </div>
-
+                        </div>
+                        <div className="col-12 col-lg-5">
+                            <p className="text-uppercase certification mt-5">Our Gallery</p>
+                            <div className="px-3">
+                                <p className=" recognition ">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES</p>
+                                <div className="row  mt-5">
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_6} alt=""></img>
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_3} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1445} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1456} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1447} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1450} alt=""></img>
                                     </div>
                                 </div>
 
                             </div>
 
                         </div>
-
                     </div>
                 </div>
-            </section>
 
-            <section className="container-fluid position-relative py-5 " id="section_9">
+            </section>
+            
+            <section className="container-fluid position-relative py-5 " id="section_10">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
                         <div className="col-12 col-lg-5 ps-lg-5 pe-lg-5 mb-5">
                             <h6 className="annual">Annual Medical Camp for Employees</h6>
-                            <img className="src" src="IMG_20190326_125922 8.png" alt=""></img>
+                            <img className="src" src={IMG_20190326_125922_8} alt=""></img>
                             <p className="section9-row-decs mt-4">Employee well-being programs [1] (also referred to as employee wellness programs) are structured initiatives put together by employers to...</p>
                             <p className="times">September 09, 2023</p>
                         </div>
@@ -447,7 +450,7 @@ function Sales() {
                             <div className="d-flex flex-column gap-4">
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className="img-fluid col-12 col-md-6" src="IMG_20190326_125922 9.png" alt=""></img>
+                                        <img className="img-fluid col-12 col-md-6" src={IMG_20190326_125922_9}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Dussehra Celebrations</h6>
                                             <p className=" section9-row2-decs">Dussehra is celebrated on the tenth day or Dashami tithi of the shukla paksha of Ashwin month on the Hindu calendar. Navratri 2023...</p>
@@ -455,10 +458,10 @@ function Sales() {
                                         </div>
                                     </div>
                                 </div>
-
+                                
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 10.png" alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_10}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Kaizen Program</h6>
                                             <p className=" section9-row2-decs">Successful Kaizen program management involves a number of different elements. There is no single change or improvement that transforms a business.</p>
@@ -466,24 +469,24 @@ function Sales() {
                                         </div>
                                     </div>
                                 </div>
-
+                                
                                 <div className="container-fluid p-0">
-                                    <div className="row ">
-                                        <img className=" img-fluid col-12 col-md-6 " src="IMG_20190326_125922 11.png" alt=""></img>
+                                    <div  className="row ">
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_11}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
-                                            <h6 className="annual">MES workshop technology awareness program </h6>
+                                            <h6 className="annua">MES workshop technology awareness program </h6>
                                             <p className=" section9-row2-decs">Timely delivery capacity of the factory, improving the circulation performance of materials, but also improving the rate of return on production.</p>
                                             <h6 className="section9-time">October 12, 2023,</h6>
                                         </div>
                                     </div>
                                 </div>
-
+                                
                             </div>
                         </div>
-
+        
                     </div>
                 </div>
-
+                
             </section>
 
             
