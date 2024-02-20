@@ -52,7 +52,7 @@ function Contact(){
                 </div>
             </section>
 
-            <section className="py-2 py-md-3 py-lg-5">
+            <section className="py-2 py-md-3 py-lg-5" id="contact_section-1">
                 <div className="container mt-5">
                     <div className="row py-2 py-md-4 py-lg-5">
                     <div className="col-12 col-md-6">
@@ -105,7 +105,7 @@ function Contact(){
 
             </section>
 
-            <section className="py-5 ">
+            <section className="py-5 " id="contact_section-2">
                 <div className="container">
                     <h6 className="page3-section3-heading mb-4">Location</h6>
                     <div className="w-100">
@@ -114,7 +114,7 @@ function Contact(){
                 </div>
             </section>
 
-            <section className="contact" id="contact_section-6">
+            <section className="contact" id="contact_section-3">
                 <section className="py-5">
                     <div className="container ">
                     <h6 className="advantages" >ADVANTAGES</h6>
@@ -238,7 +238,7 @@ function Contact(){
             </section>
 
 
-            <section className="py-5 demo53"  id="contact_section-8">  
+            <section className="py-5 demo53"  id="contact_section-4">  
             <div>
                 <h6 className="our">OUR CLIENTS</h6>
                 <h6 className="growth">Growth Enablers</h6>
@@ -402,7 +402,7 @@ function Contact(){
             </div>
             </section>
 
-            <section className="container-fluid position-relative py-5 " id="section_10">
+            <section className="container-fluid position-relative py-5 " id="contact_section_5">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
