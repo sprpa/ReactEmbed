@@ -1,6 +1,6 @@
 
 
-import './Styles.css';
+import './App.css';
 import About from './eis website/About';
 import Contact from './eis website/Contact';
 import Customer from './eis website/Customer';

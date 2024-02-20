@@ -1,5 +1,5 @@
 import React from "react";
-import ticks from "../Images/Group.png"
+import ticks from "../Images/Group tick.png"
 import our from "../Images/Union (2).svg"
 import Group_3599 from  "../Images/Group 3599.png"
 import connection from "../Images/connection.png"
