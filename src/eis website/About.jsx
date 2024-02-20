@@ -57,6 +57,7 @@ import IMG_20190326_125922_8 from "../Images/IMG_20190326_125922 8.png"
 import IMG_20190326_125922_9 from "../Images/IMG_20190326_125922 9.png"
 import IMG_20190326_125922_10 from "../Images/IMG_20190326_125922 10.png"
 import IMG_20190326_125922_11 from "../Images/IMG_20190326_125922 11.png"
+
 function About(){
     return(
         <div>
