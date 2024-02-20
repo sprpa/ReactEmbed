@@ -1,8 +1,13 @@
-import React from "react";
+import React from "react"
 import emf from "../Images/Group 3608.png"
 import building from "../Images/Group 2 (1).png"
 import black from "../Images/Group 13780.png"
 import about from "../Images/ABOUT COMPANY.png"
+import Union_2 from "../Images/Union_2.png"
+import mask from  "../Images/Mask group.png"
+import image from "../Images/IMG_20190326_125922 1.png"
+import Add from "../Images/Add On.png"
+import fujii from "../Images/Fuji NXTII 1.png"
 function Home(){
     return(
         <div>
@@ -181,7 +186,7 @@ function Home(){
 
                         <div className="col-12 col-lg-2 padding">
                             <div className="">
-                                <img src="Mask group.png" className="img-fluid width" alt=""></img>
+                                <img src={mask} className="img-fluid width" alt=""></img>
                             </div>
                         </div>
 
@@ -206,11 +211,11 @@ function Home(){
                     </div>
 
                     <div className="union">
-                        <img src="Union_2.png" className="img-fluid position-absolute bottom-0" height="152px" width="190.92px" alt=""></img>
+                        <img src={Union_2} className="img-fluid position-absolute bottom-0" height="152px" width="190.92px" alt=""></img>
                     </div>
 
                     <div className="scroll">
-                        <img src="Group 2 (1).png" className="img-fluid position-absolute scroll" alt=""></img>
+                        <img src={building} className="img-fluid position-absolute scroll" alt=""></img>
                     </div>
 
                 </div>
@@ -271,15 +276,15 @@ function Home(){
                         <div className=" pt-5">
                             <div className="row">
                                 <div className="col-12 col-lg-4 mb-4 mb-lg-2">
-                                    <img src="IMG_20190326_125922 1.png" className="img-fluid w-100" alt=""></img>
+                                    <img src={image} className="img-fluid w-100" alt=""></img>
                                 </div>
 
                                 <div className="col-12 col-lg-4 mb-4 mb-lg-2">
-                                    <img src="Add On.png" className="img-fluid w-100" alt=""></img>
+                                    <img src={Add} className="img-fluid w-100" alt=""></img>
                                 </div>
 
                                 <div className="col-12 col-lg-4 mb-4 mb-lg-2">
-                                    <img src="Fuji NXTII 1.png" className="img-fluid w-100" alt=""></img>
+                                    <img src={fujii} className="img-fluid w-100" alt=""></img>
                                 </div>
 
                             </div>                    
@@ -288,7 +293,7 @@ function Home(){
                     </div>
 
                     <div className="scroll">
-                        <img src="Group 2 (1).png" className="img-fluid position-absolute height" alt=""></img>
+                        <img src={building} className="img-fluid position-absolute height" alt=""></img>
                     </div>
 
                 </div>
