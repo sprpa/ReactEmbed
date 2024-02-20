@@ -625,7 +625,6 @@
   text-align: left;
   
 }
-  
 #contact_section_1{
     background: #01813B;
     color:white
@@ -922,42 +921,39 @@ color: #4D4D4D;
 }
 
 /* CUSTOMER LOGIN */
-/* CUSTOMER LOGIN */
 #customer_section_1{
     background: #01813B;
-  }
-  #customer_section_1 .heading1 {
+}
+#customer_section_1 .heading1 {
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.35em;
     text-align: left;
     color: #1AC664;
-  }
-  
-  #customer_section_1 .main-heading {
+}
+#customer_section_1 .main-heading {
     font-size: 54px;
     font-weight: 700;
     line-height: 59px;
     letter-spacing: 0em;
     text-align: left;
     color: #F8FFFB;
-  }
-  .customer-login #customer_section-2{
+}
+.customer-login #customer_section-2{
     background-image: url(Images/login-page.jpg);
     background-size: cover;
-  }
-  
-  .customer-login #customer_section-2 .ground{
+}
+.customer-login #customer_section-2 .ground{
     width: 100%;background: rgba(1, 129, 59, 0.95);
-  }
-  .customer-login #customer_section-2 #exampleFormControlInput1 .bord{
+}
+.customer-login #customer_section-2 #exampleFormControlInput1 .bord{
     height: 45px; border-radius :0%;
-  }
-  .customer-login #customer_section-2 .but{
+}
+.customer-login #customer_section-2 .but{
     height: 45px; background-color: rgba(209, 209, 209, 1);
-  }
-  .customer-login #customer_section-2 .login-head{
+}
+.customer-login #customer_section-2 .login-head{
     font-size: 45px;
     font-weight: 700;
     line-height: 68px;
@@ -965,23 +961,22 @@ color: #4D4D4D;
     text-align: center;
     color: rgba(231, 231, 231, 0.959);
   
-  }
-  .customer-login #customer_section-2 .grp{
+}
+.customer-login #customer_section-2 .grp{
     top: 40%; right: 3%;
-  }
-  .customer-login #customer_section-2 .login-des{
+}
+.customer-login #customer_section-2 .login-des{
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
     color: rgba(218, 216, 216, 0.925);
-  }
-  .customer-login ::-webkit-input-placeholder {
+}
+.customer-login ::-webkit-input-placeholder {
     text-align: center;
-  }
-  
-  .customer-login #customer_section-2 .username{
+}
+.customer-login #customer_section-2 .username{
     font-family:'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -989,11 +984,11 @@ color: #4D4D4D;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-  }
-  .customer-login #customer_section-2 .username span{
+}
+.customer-login #customer_section-2 .username span{
     color: rgba(255, 0, 0, 1);
-  }
-  .customer-login #customer_section-2 .remeber{
+}
+.customer-login #customer_section-2 .remeber{
     font-family:'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -1001,8 +996,8 @@ color: #4D4D4D;
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-  }
-  .customer-login #customer_section-2 .login{
+}
+.customer-login #customer_section-2 .login{
     font-family:'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -1010,5 +1005,5 @@ color: #4D4D4D;
     letter-spacing: 0em;
     text-align: center;
     color: rgba(0, 0, 0, 1);
-  }
-  
+}
+

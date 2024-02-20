@@ -1,6 +1,6 @@
 
 
-import './App.css';
+import './Styles.css';
 import About from './eis website/About';
 import Contact from './eis website/Contact';
 import Customer from './eis website/Customer';
@@ -9,13 +9,12 @@ import Home from './eis website/Home';
 import Gallery from './eis website/Gallery' 
 import Product from './eis website/Product';
 import Sales from './eis website/Sales';
-import Npi from './eis website/Npi';
 
 
 function App() {
   return (
     <div className="App">
-   <Npi />
+   <Customer />
      
     </div>
   );

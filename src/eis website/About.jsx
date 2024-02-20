@@ -62,7 +62,7 @@ function About(){
     return(
         <div>
             
-            {/* section-1 */}
+            
             <section className="py-5" id="about_section_1">
                 <div className="container">
                     <p className="about">About Company</p>
@@ -87,7 +87,7 @@ function About(){
                     <img src={group} alt="image"></img>
                 </div>
             </section>
-           {/* section-2 */}
+           
             <section className="container-fluid p-0 py-5" id="about_section-2">
                 <div className="container p-2 p-md-4 p-lg-5" id="head">
                     <h6 className="text-center">QUALITY POLICY</h6>
@@ -143,7 +143,7 @@ function About(){
                     </div>
                 </div>
             </section>
-            {/* section-3 */}
+           
             <section className="container-fluid p-0 py-5 position-relative" id="about_section-3">
                 <div className="container py-5" id="head">
                     <h6 className="text-center driving-force">DRIVING FORCE</h6>
@@ -297,7 +297,7 @@ function About(){
                     <img src={Group_13759} className="img-fluid position-absolute demo5" alt=""></img>
                 </div>
             </section>
-            {/* section-4 */}
+            
             <section className="container-fluid p-0  position-relative demo6" id="about_section-4">
       
                 <div className="container-fluid py-5 p-0 demo7">
@@ -421,7 +421,7 @@ function About(){
                 </div>
                 
             </section>
-            {/* section-5 */}
+           
             <section className="container-fluid p-0 py-5 position-relative" id="about_section-5">
                 <div className="container  pt-5">
                     <div className="head">
@@ -493,7 +493,7 @@ function About(){
                 
                 </div>
             </section>
-            {/* section-6 */}
+           
             <section className="contact" id="about_section-6">
                 <section className="py-5">
                     <div className="container ">
@@ -616,7 +616,7 @@ function About(){
                     </div>
                 </section>
             </section>
-            {/* section-7 */}
+           
             <section className="container-fluid " id="about_section-7">
                 <div className="">
                     <div className="row p-5">
@@ -664,7 +664,7 @@ function About(){
                 </div>
 
             </section>
-            {/* section-8 */}
+            
             <section className="py-5 demo53"  id="about_section-8">  
             <div>
                 <h6 className="our">OUR CLIENTS</h6>
@@ -828,7 +828,7 @@ function About(){
                     </div>
             </div>
             </section>
-            {/* section-9 */}
+            
             <section className="container-fluid position-relative py-5 " id="about_section_10">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
