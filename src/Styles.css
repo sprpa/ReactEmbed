@@ -1,6 +1,4 @@
 /* ABOUT PAGE */
-/* about_section-1 page css  */
-
 #about_section_1 .about{
     font-family: Montserrat;
     font-size: 18px;
@@ -9,8 +7,8 @@
     letter-spacing: 0.35em;
     text-align: left;
     color:#1AC664;
-  }
-  #about_section_1 .one{
+}
+#about_section_1 .one{
     font-family: Montserrat;
   font-size: 54px;
   font-weight: 700;
@@ -18,34 +16,33 @@
   letter-spacing: 0em;
   text-align: left;
   
-  }
-  
-  #about_section_1{
+}
+#about_section_1{
     background: #01813B;
     color:white
-  }
-  .image{
+}
+#about_section-1{
     background-image: url(Images/Fuji\ NXTII\ 1.jpg);
     height: 900px;
     background-size: cover;
-  }
-  #about_section-1 .background{
+}
+ #about_section-1 .background{
     bottom: 0%;
     background: #01813BD9;
-  }
-  #about_section-1 .pos{
+}
+#about_section-1 .pos{
     top: 40%;
     right: 3%;
-  }
-  #about_section-1 .font{
+}
+#about_section-1 .font{
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.35em;
     text-align: left;
-  }
-  #about_section-1 .two{
+}
+#about_section-1 .two{
     font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
@@ -53,8 +50,8 @@
   letter-spacing: 0.35em;
   text-align: left;
   color: #FFFFFF;
-  }
-  #about_section-1 .three{
+}
+#about_section-1 .three{
     font-family: Montserrat;
   font-size: 36px;
   font-weight: 700;
@@ -62,16 +59,12 @@
   letter-spacing: 0em;
   text-align: left;
   color:#FFFFFF
-  }
-  
-  /* #about_section-2 */
-  
-  #about_section-2 {
+}
+#about_section-2 {
     background-color: #E3E3E3;
     background-size: cover;
-  }
-  
-  #about_section-2 #head h6{
+} 
+#about_section-2 #head h6{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -79,8 +72,8 @@
     letter-spacing: 0.35em;
     text-align: center;    
     color: #2D2D2D;    
-  }
-  #about_section-2 #head h5{
+}
+#about_section-2 #head h5{
     font-family: 'Montserrat',sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -88,9 +81,8 @@
     letter-spacing: 0em;
     text-align: center;    
     color: #2D2D2D;    
-  }
-  
-  #about_section-2 #row h6 {
+}
+#about_section-2 #row h6 {
     font-family:'Montserrat',sans-serif;
     font-size: 81px;
     font-weight: 700;
@@ -98,8 +90,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-  }
-  #about_section-2 #row p {
+}
+#about_section-2 #row p {
     font-family:'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -107,22 +99,20 @@
     letter-spacing: 0.35em;
     text-align: center;
     color: #FFFFFF;    
-  }
-  #about_section-2 .color1{
+}
+#about_section-2 .color1{
         background-color: #01813B;
         height: 198px;
-  }
-  #about_section-2 .color2{
+}
+#about_section-2 .color2{
     background-color: #01813B;
     height: 198px;
-  } 
-  #about_section-2 .color3{
+} 
+#about_section-2 .color3{
     background-color: #01813B;
     height: 198px;
-  } 
-  /* about_section-3 page css  */
-  
-  #about_section-3 #head .driving-force{
+} 
+#about_section-3 #head .driving-force{
     font-family:'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -130,9 +120,8 @@
     letter-spacing: 0.35em;
     text-align: center;
     color: #000000;    
-  }
-  
-  #about_section-3 #head .team{
+} 
+#about_section-3 #head .team{
     font-family: 'Montserrat',sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -140,8 +129,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #000000;
-  }
-  #about_section-3 .row .name {
+}
+#about_section-3 .row .name {
     font-family: 'Montserrat',sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -149,9 +138,8 @@
     letter-spacing: 0em;
     text-align: center;    
     color: #000000;    
-  }
-  
-  #about_section-3 .row .designation{
+} 
+#about_section-3 .row .designation{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -159,8 +147,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #00923F;    
-  }
-  .board-members-content{
+}
+#about_section-3 .board-members-content{
     color: rgb(79, 79, 79) !important;
     font-family: 'Roboto', sans-serif;
     font-size: 16px !important;
@@ -171,8 +159,8 @@
     padding-top: 11.2px;
     pointer-events: auto;
     text-align: start;
-  }
-  .board-members-content{
+}
+#about_section-3 .board-members-content{
     color: rgb(79, 79, 79) !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: 16px !important;
@@ -183,8 +171,8 @@
     padding-top: 11.2px;
   
     text-align: start !important;
-  }
-  .board-semhead{
+}
+#about_section-3 .board-semhead{
     color: #39f !important;
     font-size: 16px !important;
     font-family: 'Roboto', sans-serif !important;
@@ -193,52 +181,48 @@
     pointer-events: auto;
     text-align: start !important;
     text-size-adjust: 100%;
-  }
-  .board-head {
+}
+#about_section-3 .board-head {
     font-size: 36px !important;
     color: #4f4f4f !important;
     font-family: 'Roboto', sans-serif !important;
     text-align: start !important;
     font-weight: 400;
     line-height: 54px;
-  }
-  .member-designation-popup {
+}
+#about_section-3 .member-designation-popup {
     font-size: 18px !important;
     color: #828282 !important;
     font-family: 'Roboto', sans-serif !important;
     text-align: start !important;
-  }
-  /* section-3 */
-  #about_section-3 .demo{
+}
+#about_section-3 .demo{
     height: 2px;
-  }
-  #about_section-3 .demo1{
+}
+#about_section-3 .demo1{
     background-color:green;
     bottom:0%;
     left:0%;
     right:0%;
-  }
-  #about_section-3 .demo2{
+}
+#about_section-3 .demo2{
     z-index:-1;
-  }
-  #about_section-3 .demo3{
+}
+#about_section-3 .demo3{
     height:2px;
-  }
-  #about_section-3 .demo4{
+}
+#about_section-3 .demo4{
     background-color:green;
     bottom:0%;
     left:0%;
     right:0%;
-  }
-  #about_section-3 .demo5{
+}
+#about_section-3 .demo5{
     bottom: 10%;
     right:2%;
     height:170px;
-  }
-  
-  /* about_section-4 page css  */
-  
-  #about_section-4 .head h6{
+}
+#about_section-4 .head h6{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -246,8 +230,8 @@
     letter-spacing: 0.35em;
     text-align: left;
     color: #FFFFFF;
-  }
-  #about_section-4 .head h5{
+}
+#about_section-4 .head h5{
     font-family: 'Montserrat',sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -255,8 +239,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-  }
-  #about_section-4 .row p{
+}
+#about_section-4 .row p{
     font-family: 'Montserrat',sans-serif;
     font-size: 27px;
     font-weight: 700;
@@ -264,21 +248,20 @@
     letter-spacing: 0em;
     text-align: left;    
     color: #FFFFFF;
-  }
-  #about_section-4{
+}
+#about_section-4{
     background-image: url('Images/DJI_0756\ 1.png');
     background-size:cover;
-  }
-  #about_section-4 .demo7{
+}
+#about_section-4 .demo7{
     background-color: #01642EB0;
     height:100%;
     width:100%;
-  }
-  #about_section-4 .demo8{
+}
+#about_section-4 .demo8{
     margin-top:100px !important; 
-  }
-  
-  #about_section-5 .head h6{
+}
+#about_section-5 .head h6{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -286,8 +269,8 @@
     letter-spacing: 0.35em;
     text-align: left;
     color: #056732;
-  }
-  #about_section-5 .row ul li{
+}
+#about_section-5 .row ul li{
     font-family:'Montserrat',sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -295,16 +278,13 @@
     letter-spacing: 0em;
     text-align: left;
     color:#2D2D2D;
-  }
-  
-  #about_section-5 .demo9{
+}  
+#about_section-5 .demo9{
     bottom:5%;
     right:2%;
     height:170px;
-  }
-  /* about_section-6 css */
-  
-  #about_section-6  .advantages{
+}  
+#about_section-6  .advantages{
     font-family:'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -313,8 +293,8 @@
     text-align: center;
     color: #000;
     
-  }
-  #about_section-6  .sez{
+}
+#about_section-6  .sez{
     font-family:'Montserrat',sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -322,8 +302,8 @@
     letter-spacing: 0em;
     text-align: center;
     color: #000;
-  }
-  #about_section-6 .row p{
+}
+#about_section-6 .row p{
     padding: 40px 30px;
     font-family:'Montserrat',sans-serif;
     font-size: 22px;
@@ -332,150 +312,147 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-  }
-  #about_section-6 .colo{
+}
+#about_section-6 .colo{
     color:rgba(0, 169, 77, 1);
-  }
-  
-  #about_section-6 .demo10{
+}
+#about_section-6 .demo10{
     height: 800px;
-  }
-  #about_section-6 .demo11{
+}
+#about_section-6 .demo11{
     top: 50%;
     left: 40%;
-  }
-  #about_section-6 .demo12{
+}
+#about_section-6 .demo12{
     left: 0%;
-  }
-  #about_section-6 .demo13{
+}
+#about_section-6 .demo13{
     left: 6.7%;
     top: 5.7%;
-  }
-  #about_section-6 .demo14{
+}
+#about_section-6 .demo14{
     left: 12.5%;
     top: 12%;
-  }
-  #about_section-6 .demo15{
+}
+#about_section-6 .demo15{
     top: 35%;
     left:15%
-  }
-  #about_section-6 .demo16{
+}
+#about_section-6 .demo16{
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
-  }
-  #about_section-6 .demo17{
+}
+#about_section-6 .demo17{
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-  }
-  #about_section-6 .demo18{
+}
+#about_section-6 .demo18{
     top: 80%;
     left: 80%;
-  }
-  #about_section-6 .demo19{
+}
+#about_section-6 .demo19{
     width: 470px; 
-  }
-  #about_section-6 .demo20{
+}
+#about_section-6 .demo20{
     bottom:-60%;
     right: 80%;
-  }
-  #about_section-6 .demo21{
+}
+#about_section-6 .demo21{
     left: -90%;
     width:235px; 
-  }
-  #about_section-6 .demo22{
+}
+#about_section-6 .demo22{
     top:50%;
     right:100%;
-  }
-  #about_section-6 .demo23{
+}
+#about_section-6 .demo23{
     left: -280%;
     top: -10%;
     width: 310px;
-  }
-  #about_section-6 .demo24{
+}
+#about_section-6 .demo24{
     top:50%; left: 100%;
-  }
-  #about_section-6 .demo25{
+}
+#about_section-6 .demo25{
     left: 120%; top: -10%; width: 310px;
-  }
-  #about_section-6 .demo26{
+}
+#about_section-6 .demo26{
     top:-190%; left: 50%;
-  }
-  #about_section-6 .demo27{
+}
+#about_section-6 .demo27{
     top:-20%; left: -60%;
-  }
-  #about_section-6 .demo28{
+}
+#about_section-6 .demo28{
     right:118%; top: -30%; width: 310px;
-  }
-  #about_section-6 .demo29{
+}
+#about_section-6 .demo29{
     top:-20%; left: 80%;
-  }
-  #about_section-6 .demo30{
+}
+#about_section-6 .demo30{
     left: 120%; top: -20%; width: 310px;  
-  }
-  #about_section-6 .demo31{
+}
+#about_section-6 .demo31{
     top:-120%; right: 70%;
-  }
-  #about_section-6 .demo32{
+}
+#about_section-6 .demo32{
     width: 219px; height: 129.04px;
-  }
-  #about_section-6 .demo33{
+}
+#about_section-6 .demo33{
     top: 30%;right: 10%; width: 144px;
     color: #FFFFFF;
-  }
-  #about_section-6 .demo34{
+}
+#about_section-6 .demo34{
     top:30%; right:110%;  width: 235px;
-  }
-  #about_section-6 .demo35{
+}
+#about_section-6 .demo35{
     top:-120%; left: 70%;
-  }
-  #about_section-6 .demo36{
+}
+#about_section-6 .demo36{
     width: 219px; height: 129.04px;
-  }
-  #about_section-6 .demo37{
+}
+#about_section-6 .demo37{
     top: 30%;left: 10%; width: 144px;
     color: #FFFFFF;
-  }
-  #about_section-6 .demo38{
+}
+#about_section-6 .demo38{
     top:30%; left: 110%;   width: 235px;
-  }
-  #about_section-6 .demo39{
+}
+#about_section-6 .demo39{
     top:-200%; left: -370%; width: 600px;
-  }
-  #about_section-6 .demo40{
+}
+#about_section-6 .demo40{
     color: #00923F;
-  }
-  #about_section-6 .demo41{
+}
+#about_section-6 .demo41{
     top:-200%; left: 70%; width:600px;
-  }
-  #about_section-6 .demo42{
+}
+#about_section-6 .demo42{
     color: #00923F;
-  }
-  #about_section-6 .demo43{
+}
+#about_section-6 .demo43{
     height:100%;  background:  #01813B;
-  }
-  #about_section-6 .demo44{
+}
+#about_section-6 .demo44{
     height:100%; background-color:  #01813B;
-  }
-  #about_section-6 .demo45{
+}
+#about_section-6 .demo45{
     height:100%;  background-color:  #01813B;
-  }
-  
-  #about_section-7 {
+}  
+#about_section-7 {
     position: relative;
   
   
     background-repeat: repeat;
     background-image: url('Images/IMG_20190326_125922\ 2.png');
-  }
-  
-  #about_section-7::after {
+} 
+#about_section-7::after {
     content: "";
     position: absolute;
     top: 0;
@@ -486,9 +463,8 @@
     background-size: cover;
     background-color: #01813B;
     z-index: -1;
-  }
-  
-  #about_section-7::before {
+} 
+#about_section-7::before {
     content: "";
     position: absolute;
     top: 0;
@@ -497,20 +473,16 @@
     left: 0;
   
     z-index: -1;
-  }
-  
-  
-  
-  #about_section-7 .certification {
+}
+#about_section-7 .certification {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
   
     letter-spacing: 0.35em;
     text-align: left;
     color: #FFFFFF;
-  }
-  
-  #about_section-7 .recognition {
+}
+#about_section-7 .recognition {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
   
@@ -519,9 +491,8 @@
     color: #FFFFFF;
   
   
-  }
-  
-  #about_section-7 .certified {
+}
+#about_section-7 .certified {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
   
@@ -529,22 +500,17 @@
     text-align: left;
     color: #FFFFFF;
   
-  }
-  
-  
-  /* section8 */
-  
-  #about_section-8 .zero{
+}
+#about_section-8 .zero{
     border-radius: 0%;
-  }
-  #about_section-8 .zero1{
+}
+#about_section-8 .zero1{
     border-radius: 0%; height: 110px;
-  }
-  /* section-8 */
-  #about_section-8 .demo53{
+}
+#about_section-8 .demo53{
     background: #F5F5F5;
-  }
-  #about_section-8 .our{
+}
+#about_section-8 .our{
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
@@ -553,8 +519,8 @@
     text-align: center;
     color: #1AC664;
   
-  }
-  #about_section-8 .growth{
+}
+#about_section-8 .growth{
     font-family: Montserrat;
     font-size: 72px;
     font-weight: 700;
@@ -563,8 +529,8 @@
     text-align: center;
     color: #2D2D2D;
   
-  }
-  #about_section-8 .base{
+}
+#about_section-8 .base{
     font-family: Montserrat;
     font-size: 36px;
     font-weight: 700;
@@ -573,8 +539,8 @@
     text-align: left;
     color: #5A5959;
   
-  }
-  #about_section-8 .all{
+}
+#about_section-8 .all{
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 300;
@@ -583,18 +549,12 @@
     text-align: center;
     color: #5A5959;
   
-  }
-  
-  
-  
-  
-  
-  /* section-9 */
-  .demo54{
+}
+#about_section_10.demo54{
     color: #1AC664;
     background-color: #000000;
-  }
-  #section_10 .news{
+}
+#about_section_10 .news{
     font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
@@ -603,8 +563,8 @@
   text-align: left;
   color:#056732;
   
-  }
-  #section_10 .annual{
+}
+#about_section_10 .annual{
     font-family: Montserrat;
   font-size: 36px;
   font-weight: 700;
@@ -612,8 +572,17 @@
   letter-spacing: 0em;
   text-align: left;
   color:#2D2D2D
-  }
-  #section_10 .times{
+}
+#about_section_10 .annua{
+    font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#2D2D2D
+}
+#about_section_10 .times{
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
@@ -622,17 +591,18 @@
     text-align: left;
     color: #00923F;    
   
-  }
-  #section_10 .get{
+}
+#about_section_10 .get{
     width: 175px;
   height: 52px;
   top: 10235px;
   left: 1565px;
   color: #00923F;
-  }
-  #section_10 .src{
-    width: 450px;
-    height: 284px;
+}
+#about_section_10 .src{
+    width: 350px;
+    height: 244px;
     top: 9719px;
     left: 240px;
-  }
+}
+

@@ -63,7 +63,7 @@ function About(){
         <div>
             
             {/* section-1 */}
-            <section className="py-5 style" id="about_section_1">
+            <section className="py-5" id="about_section_1">
                 <div className="container">
                     <p className="about">About Company</p>
                     <h6 className="one">One of the Largest EMS Facilities in India</h6>
@@ -829,7 +829,7 @@ function About(){
             </div>
             </section>
             {/* section-9 */}
-            <section className="container-fluid position-relative py-5 " id="section_10">
+            <section className="container-fluid position-relative py-5 " id="about_section_10">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
