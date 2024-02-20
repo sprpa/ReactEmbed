@@ -1337,9 +1337,8 @@ header {
     background-color: rgba(1, 129, 59, 1);
     margin-bottom: 0;
   
-  }
-  
-  header p {
+}
+header p {
     color: rgba(26, 198, 100, 1);
     text-transform: uppercase;
     font-family: Montserrat;
@@ -1349,9 +1348,8 @@ header {
     letter-spacing: 0.35em;
     text-align: left;
   
-  }
-  
-  header h2 {
+}
+header h2 {
     color: rgba(248, 255, 251, 1);
     font-family: 'Montserrat', sans-serif;
     font-size: 54px;
@@ -1359,7 +1357,7 @@ header {
     line-height: 59.4px;
     letter-spacing: 0;
     margin-bottom: 0;
-  }
+}
 #gallery_sectionone div h4 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -1368,25 +1366,23 @@ header {
     line-height: 36px;
     letter-spacing: 35%;
     text-align: center;
-  }
-  
-  #gallery_sectionone div h2 {
+}
+#gallery_sectionone div h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 67px;
     text-align: center;
-  }
-  
-  #gallery_sectionone div p {
+}
+#gallery_sectionone div p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 32px;
     color: rgba(0, 169, 77, 1);
     text-align: center;
-  }
-  #gallery_section-3 .advantages{
+}
+#gallery_section-3 .advantages{
     font-family:'Montserrat',sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -1651,4 +1647,3 @@ header {
     top: 9719px;
     left: 240px;
 }
-
