@@ -133,7 +133,7 @@ function Sales() {
 
             </section>
 
-            <section className="container-fluid p-0 p6-flu" id="areasales_section-4">
+            <section className="container-fluid p-0 p6-flu" id="areasales_section-5">
                 <div className="py-3 py-lg-5 p6-rgb">
                     <div className="container py-3 py-lg-5">
                         <h6 className="pt-5 p6-our">OUR FEATURES</h6>
@@ -269,7 +269,7 @@ function Sales() {
                 </div>
             </section>
 
-            <section className="py-5" id="areasales_section_7">
+            <section className="py-5" id="areasales_section_6">
                 <div className="container py-5">
                     <h6 className="setion7-heading">OUR PRODUCT RANGE</h6>
                     <div className="row ps-lg-5 mt-5 pb-lg-5">
@@ -388,7 +388,7 @@ function Sales() {
 
             </section>
 
-            <section className="container-fluid " id="areasales_section-8">
+            <section className="container-fluid " id="areasales_section-7">
                 <div className="">
                     <div className="row p-5">
                         <div className="col-12 col-lg-7">
@@ -436,7 +436,7 @@ function Sales() {
 
             </section>
             
-            <section className="container-fluid position-relative py-5 " id="section_10">
+            <section className="container-fluid position-relative py-5 " id="areasales_section_10">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
