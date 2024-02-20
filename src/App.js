@@ -9,12 +9,13 @@ import Home from './eis website/Home';
 import Gallery from './eis website/Gallery' 
 import Product from './eis website/Product';
 import Sales from './eis website/Sales';
+import Npi from './eis website/Npi';
 
 
 function App() {
   return (
     <div className="App">
-   <Contact />
+   <Npi />
      
     </div>
   );

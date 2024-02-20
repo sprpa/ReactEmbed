@@ -7,14 +7,14 @@ function Customer(){
         <div className="customer-login">
             
 
-            <section className=" py-4 pt-5" id="section_1">
+            <section className=" py-4 pt-5" id="customer_section_1">
                 <div className="container">
                     <h6 className=" heading1 text-uppercase">Customer & Partners</h6>
                     <h6 className="main-heading">Customer Login</h6>
                 </div>
             </section>
 
-            <section className="py-5 position-relative" id="section-2">
+            <section className="py-5 position-relative" id="customer_section-2">
                 <div className="d-flex justify-content-center">
                     <div className=" py-5 ">
                         <div className="p-2 p-sm-3 p-md-4 p-lg-5 ground">
