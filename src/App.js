@@ -1,6 +1,6 @@
 
 
-import './Styles.css';
+import './App.css';
 import About from './eis website/About';
 import Contact from './eis website/Contact';
 import Customer from './eis website/Customer';
@@ -9,12 +9,13 @@ import Home from './eis website/Home';
 import Gallery from './eis website/Gallery' 
 import Product from './eis website/Product';
 import Sales from './eis website/Sales';
+import Pcb from './eis website/pcb';
 
 
 function App() {
   return (
     <div className="App">
-   <Gallery />
+   <Pcb />
      
     </div>
   );

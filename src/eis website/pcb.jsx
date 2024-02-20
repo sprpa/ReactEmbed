@@ -1,6 +1,34 @@
-import React from "react";
+import React from "react"
 
-import tick from "../Images/Group tick.png"
+import manufacture from "../Images/image 33.jpg"
+import tape from "../Images/Tape-_-Reel-machine 1.png"
+import image_27 from "../Images/image 27.jpg"
+import image_34 from "../Images/image 34.jpg"
+import ticks from "../Images/Group tick.png"
+import Group_3599 from  "../Images/Group 3599.png"
+import connection from "../Images/connection.png"
+import image2 from "../Images/point-of-sale-terminal-pos 1.png"
+import image3 from "../Images/Group 13700.png"
+import image4 from "../Images/train stop.svg"
+import image5 from "../Images/Group (1).png"
+import image6 from "../Images/Group (2).png"
+import image7 from "../Images/Group 13725.png"
+import image8 from "../Images/Group 13726.png"
+import image9 from "../Images/Group 12176.png"
+import image10 from "../Images/Group (5).png"
+import img1 from "../Images/IMG_20190326_125922 6.png"
+import img2 from "../Images/IMG_20190326_125922 3.png"
+import img3 from "../Images/Rectangle 1445.png"
+import img4 from "../Images/Rectangle 1456.png"
+import img5 from "../Images/Rectangle 1447.png"
+import img6 from "../Images/Rectangle 1450.png"
+import annual  from "../Images/IMG_20190326_125922 8.png"
+import employee from "../Images/IMG_20190326_125922 9.png"
+import dussera from "../Images/IMG_20190326_125922 10.png"
+import success from "../Images/IMG_20190326_125922 11.png"
+
+
+
 function Pcb() {
   return (
     <div className="">
@@ -23,7 +51,7 @@ function Pcb() {
 
                     <p className=" overlays p-3">
                         Embedded IT Solutions (India) Pvt. Ltd., will support customers on PCB assemblies on both
-                        turnkey and job work basis and capabilities and 6σ manufacturing for high mix, low volume, low
+                        turnkey and job work basis and capabilities and 6Ïƒ manufacturing for high mix, low volume, low
                         mix, high volume PCBA and box build assembly
                     </p>
                 </div>
@@ -48,17 +76,16 @@ function Pcb() {
                             PCB assembly and box build. EIS supports customers on PCB Assemblies on both turnkey and job
                             work basis.
                         </p>
-                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src="src/Images/image 33.jpg" alt="Description 1"></img>
-                        <img className="col-12 col-md-12 col-lg-12" src="image 33.jpg" alt="Description 2"></img>
+                        <img className="col-12 col-md-12 col-lg-12 mb-3 " src={manufacture} alt="Description 1"></img>
+                        <img className="col-12 col-md-12 col-lg-12" src={manufacture} alt="Description 2"></img>
                     </div>
 
                 </div>
                 <div className="col-12 col-md-6  col-lg-6 p-5  ">
                     <div className="d-flex flex-column  ">
                         <div className="row p-2">
-                            <img className="col-12 col-md-6 col-lg-6" src="Tape-_-Reel-machine 1.png"
-                                alt="Description 3"></img>
-                            <img className="col-12 col-md-6 col-lg-6 " src="image 27.jpg" alt="Description 4"></img>
+                            <img className="col-12 col-md-6 col-lg-6" src={tape} alt="Description 3"></img>
+                            <img className="col-12 col-md-6 col-lg-6 " src={image_27} alt="Description 4"></img>
                         </div>
                         <p className=" manufacture p-2 ">
                             Manufacturing Capabilities: Our assembly line supports smallest component sizes down to
@@ -66,7 +93,7 @@ function Pcb() {
                             Our process uses JEDEC guidelines and IPC standards for PCB component placement, soldering,
                             and inspection to maintain quality control.
                         </p>
-                        <img className="col-12 col-md-12 col-lg-12 " src="image 34.jpg" alt="Description 5"></img>
+                        <img className="col-12 col-md-12 col-lg-12 " src={image_34} alt="Description 5"></img>
                     </div>
                 </div>
             </div>
@@ -88,7 +115,7 @@ function Pcb() {
                     <div className="col-12 col-md-4  col-lg-4">
                         <div className=" box  mb-3 color2" >
                             <div className="d-flex gap-3 mb-4 p-3 ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Single sided, double sided SMT, through hole and mixed technology
                                     assemblies</p>
                             </div>
@@ -96,21 +123,21 @@ function Pcb() {
 
                         <div className=" lastbox  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-4  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">PCB assemblies as per RoHS compliance</p>
                             </div>
                         </div>
 
                         <div className=" boxes  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-3  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Automated Optical Inspection(AOI) after reflow to ensure defect free products to customers</p>
                             </div>
                         </div>
 
                         <div className=" lastbox  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-4  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Capable of handling BGA reworks on lead less packages</p>
                             </div>
                         </div>
@@ -120,28 +147,28 @@ function Pcb() {
 
                         <div className=" box  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-2 ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Capable of handling 01005 chip components, BGAs, micro BGAs, CSPs, QFNs and other lead less packages</p>
                             </div>
                         </div>
 
                         <div className=" lastbox  mb-3 color2" >
                             <div className="d-flex gap-3 mb-4 p-2  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Products will be manufactured as per IPC standards and customer specifications</p>
                             </div>
                         </div>
 
                         <div className=" boxes  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-4  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Box build assembly and inspection services with plastic, metal and cable assemblies.</p>
                             </div>
                         </div>
 
                         <div className=" lastbox  mb-3 color2" >
                             <div className="d-flex gap-3 mb-4 p-4  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Capable of BGA re-balling using micro stencils</p>
                             </div>
                         </div>
@@ -150,14 +177,14 @@ function Pcb() {
                     <div className="col-12 col-md-4 col-lg-4 ">
                         <div className=" box  mb-3 color2">
                             <div className="d-flex gap-3 mb-4 p-5 ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Single and multi layered boards</p>
                             </div>
                         </div>
 
                         <div className=" lastbox  mb-3 color1" >
                             <div className="d-flex gap-3 mb-4 p-3  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">Solder paste inspection after paste printing to minimize soldering defects</p>
                             </div>
                         </div>
@@ -165,7 +192,7 @@ function Pcb() {
                         
                         <div className=" boxes  mb-3 color1">
                             <div className="d-flex gap-3 mb-4 p-3  ">
-                                <img className="ticks " src="Group.png"></img>
+                                <img className="ticks " src={ticks}></img>
                                 <p className="words ">system tests on box-build assemblies based on functional test requirements as per customer specifications</p>
                             </div>
                         </div>
@@ -192,7 +219,7 @@ function Pcb() {
 
 
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks  " src={tick}/>
+                            <img className="ticks  " src={ticks}/>
                             <div>
                                 <div>
                                     <p className=" words mt-0 mb-3 ">Latest Fuji NXT & AIMEX SMT Line</p>
@@ -202,7 +229,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src={tick}></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">In-line Automated Optical Inspection (AOI) SMT Line
@@ -213,7 +240,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">2.5Dx X-Ray Inspection SMT Line</p>
@@ -223,7 +250,7 @@ function Pcb() {
 
                         </div>
                         <div className="  d-flex gap-4 mb-3">
-                            <img className="ticks" src="Group.png"></img>
+                            <img className="ticks" src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">In-line Solder Paste Height
@@ -235,7 +262,7 @@ function Pcb() {
                         </div>
 
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks} ></img>
                             <div>
                                 <div>
                                     <p className=" words mb-3">Laser marking for PCBA, Shield, & ICs</p>
@@ -247,7 +274,7 @@ function Pcb() {
 
                     <div className=" col-12 col-md-4 p-2 mt-5">
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src= {ticks} ></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">RoHS Compliance, Lead-Free
@@ -257,7 +284,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-2 mb-3">Wave Soldering</p>
@@ -266,7 +293,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">System Integration and BoxBuild
@@ -276,7 +303,7 @@ function Pcb() {
 
                         </div>
                         <div className="  d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-0 mb-3">Low-Volume, High-Mix /HighVolume,
@@ -289,7 +316,7 @@ function Pcb() {
                         </div>
 
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-2 mb-3">Build to Order (BTO), Configure
@@ -303,7 +330,7 @@ function Pcb() {
 
                     <div className=" col-12 col-md-4 p-2  mt-5">
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-2 mb-3">Clean/No-Clean Processes</p>
@@ -313,7 +340,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-2 mb-3">Conformal Coating</p>
@@ -322,7 +349,7 @@ function Pcb() {
 
                         </div>
                         <div className=" d-flex gap-4 mb-3">
-                            <img className="ticks " src="Group.png"></img>
+                            <img className="ticks " src={ticks}></img>
                             <div>
                                 <div>
                                     <p className="words mt-2 mb-3">Ultrasonic welding</p>
@@ -332,7 +359,7 @@ function Pcb() {
 
                         </div>
                         <div className="  d-flex gap-4 mb-3">
-                            <img className="ticks" src="Group.png"></img>
+                            <img className="ticks" src={ticks}></img>
                             <div>
                                 <div>
                                     <p class="words mt-2 mb-3">Robotic Auto-Handler testing
@@ -376,7 +403,7 @@ function Pcb() {
                     <div className="">
                         <h3 className="boards">Our boards are being used in sophisticated products catering for various
                             commercial and industrial segments.</h3>
-                        <img className="img-fluid mt-5" src="Group 3599.png"></img>
+                        <img className="img-fluid mt-5" src={Group_3599}></img>
                     </div>
                 </div>
 
@@ -385,27 +412,27 @@ function Pcb() {
 
                         <div className="col-12 col-lg-6 col-md-6 ">
                             <div className="d-flex flex-row wifi mb-4 ">
-                                <img   src="connection.png" className="image1" alt=""></img>
+                                <img   src={connection} className="image1" alt=""></img>
                                 <p className="px-3">Wi-Fi modules</p>
                             </div>
 
                             <div className="d-flex flex-row wifi mb-4">
-                                <img src="point-of-sale-terminal-pos 1.png" className="image2" alt=""></img>
+                                <img src={image2} className="image2" alt=""></img>
                                 <p className="px-3">Point-of-sale terminals</p>
                             </div>
 
                             <div className="d-flex flex-row wifi mb-4">
-                                <img  src="Group 13700.png"className="image3" alt=""></img>
+                                <img  src={image3}  className="image3" alt=""></img>
                                 <p className="px-3">LED drivers</p>
                             </div>
 
                             <div className="d-flex flex-row wifi mb-4">
-                                <img src="train stop.svg" className="image4" alt=""></img>
+                                <img src={image4} className="image4" alt=""></img>
                                 <p className="px-3">Train collision avoidance systems</p>
                             </div>
 
                             <div className="d-flex flex-row wifi mb-4">
-                                <img src="Group (1).png"  className="image5" alt=""></img>
+                                <img src={image5}  className="image5" alt=""></img>
                                 <p className="px-3">UPS and power supply solutions</p>
                             </div>
 
@@ -413,27 +440,27 @@ function Pcb() {
 
                         <div className="col-12 col-md-6 ">
                             <div className="d-flex flex-row wifi  mb-4 ">
-                                <img src="Group (2).png" className="image6" alt=""></img>
+                                <img src={image6} className="image6" alt=""></img>
                                 <p className="mx-3">GPS tracking devices</p>
                             </div>
 
                             <div class="d-flex flex-row wifi mb-4">
-                                <img src="Group 13725.png" className="image7" alt=""></img>
+                                <img src={image7} className="image7" alt=""></img>
                                 <p class="mx-3">Biomedical devices</p>
                             </div>
 
                             <div className="d-flex flex-row wifi  mb-4">
-                                <img src="Group 13726.png" className="image8" alt=""></img>
+                                <img src={image8} className="image8" alt=""></img>
                                 <p className="mx-3">Wireless communication </p>
                             </div>
 
                             <div className="d-flex flex-row wifi mb-4">
-                                <img src="Group 12176.png"className="image9" alt=""></img>
+                                <img src={image9} className="image9" alt=""></img>
                                 <p className="mx-3">Smart lighting control systems</p>
                             </div>
 
                             <div className="d-flex flex-row wifi  mb-4">
-                                <img src="Group (5).png"className="image10" alt=""></img>
+                                <img src={image10} className="image10" alt=""></img>
                                 <p className="mx-3">Home Appliances</p>
                             </div>
 
@@ -474,16 +501,16 @@ function Pcb() {
                         <p className=" recognition ">FUTURE READY infrastructure and State of the art facilities.</p>
                         <div className="row  mt-5">
                             <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="IMG_20190326_125922 6.png" alt=""></img>
-                                <img className="w-100 mb-4" src="IMG_20190326_125922 3.png" alt=""></img>
+                                <img className="w-100 mb-4" src={img1} alt=""></img>
+                                <img className="w-100 mb-4" src={img2} alt=""></img>
                             </div>
                             <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="Rectangle 1445.png" alt=""></img>
-                                <img className="w-100 mb-4" src="Rectangle 1456.png" alt=""></img>
+                                <img className="w-100 mb-4" src={img3} alt=""></img>
+                                <img className="w-100 mb-4" src={img4} alt=""></img>
                             </div>
                             <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="Rectangle 1447.png" alt=""></img>
-                                <img className="w-100 mb-4" src="Rectangle 1450.png" alt=""></img>
+                                <img className="w-100 mb-4" src={img5} alt=""></img>
+                                <img className="w-100 mb-4" src={img6} alt=""></img>
                             </div>
                         </div>
 
@@ -503,7 +530,7 @@ function Pcb() {
             <div className="row mt-5">
                 <div className="col-12 col-lg-5  mb-5">
                     <h6 className="annual">Annual Medical Camp for Employees</h6>
-                    <img className="mt-5  img-fluid" src="IMG_20190326_125922 8.png" alt=""></img>
+                    <img className="mt-5  img-fluid" src={annual} alt=""></img>
                     <p className="employee mt-4">Employee well-being programs [1] (also referred to as employee wellness
                         programs) are structured initiatives put together by employers to...</p>
                     <h6 className="time">September 09, 2023</h6>
@@ -512,7 +539,7 @@ function Pcb() {
                     <div className="d-flex flex-column gap-4">
 
                         <div className="row">
-                            <img className="img-fluid col-12 col-md-6" src="IMG_20190326_125922 9.png" alt=""></img>
+                            <img className="img-fluid col-12 col-md-6" src={employee} alt=""></img>
                             <div className="ps-lg-4   col-12 col-md-6">
                                 <h6 className="head">Dussehra Celebrations</h6>
                                 <p className=" para">Dussehra is celebrated on the tenth day or Dashami tithi of the shukla
@@ -524,7 +551,7 @@ function Pcb() {
 
 
                         <div className="row">
-                            <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 10.png" alt=""></img>
+                            <img className=" img-fluid col-12 col-md-6" src={dussera} alt=""></img>
                             <div className="ps-lg-4  col-12 col-md-6">
                                 <h6 className="head">Kaizen Program</h6>
                                 <p className=" para">Successful Kaizen program management involves a number of different
@@ -536,7 +563,7 @@ function Pcb() {
 
 
                         <div className="row ">
-                            <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 11.png" alt=""></img>
+                            <img className=" img-fluid col-12 col-md-6" src={success} alt=""></img>
                             <div className="ps-lg-4 col-12 col-md-6">
                                 <h6 className="head">MES workshop technology awareness program </h6>
                                 <p className=" para">Timely delivery capacity of the factory, improving the circulation
