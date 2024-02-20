@@ -3,6 +3,17 @@ import React from "react";
 import Group_2 from "../Images/Group 2.png"
 import image_40 from "../Images/image 40.jpg"
 import image_41 from "../Images/image 41.jpg"
+import P1143581_1 from "../Images/P1143581 1.png"
+import IMG_20190326_125922_6 from "../Images/IMG_20190326_125922 6.png"
+import IMG_20190326_125922_3 from "../Images/IMG_20190326_125922 3.png"
+import Rectangle_1445 from "../Images/Rectangle 1445.png"
+import Rectangle_1447 from "../Images/Rectangle 1447.png"
+import Rectangle_1450 from "../Images/Rectangle 1450.png"
+import Rectangle_1456 from "../Images/Rectangle 1456.png"
+import IMG_20190326_125922_8 from "../Images/IMG_20190326_125922 8.png"
+import IMG_20190326_125922_9 from "../Images/IMG_20190326_125922 9.png"
+import IMG_20190326_125922_10 from "../Images/IMG_20190326_125922 10.png"
+import IMG_20190326_125922_11 from "../Images/IMG_20190326_125922 11.png"
 
 function Product(){
     return(
@@ -312,7 +323,7 @@ function Product(){
                             <p className="des-heading">Our boards are being used in sophisticated
                                 products catering for various commercial
                                     and industrial segments.</p>
-                            <img className="mt-4 px-2 pt-3 pb-5 flex" src="P1143581 1.png" alt=""></img>
+                            <img className="mt-4 px-2 pt-3 pb-5 flex" src={P1143581_1} alt=""></img>
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -423,71 +434,71 @@ function Product(){
 
             </section>
             {/* section-8 */}
-            <section className="container-fluid " id="p_section-7">
-        <div className="">
-            <div className="row p-5">
-                <div className="col-12 col-lg-7">
+            <section className="container-fluid " id="product_section-8">
+                <div className="">
+                    <div className="row p-5">
+                        <div className="col-12 col-lg-7">
 
-                    <p className="text-uppercase certification mt-5">CERTIFICATIONS & COMPLIANCES</p>
+                            <p className="text-uppercase certification mt-5">CERTIFICATIONS & COMPLIANCES</p>
 
-                    <div className="px-4">
-                        <p className=" recognition ">Our Recognition & Awards</p>
-                        <div className="certified py-5 ">
-                            <p>Certified for IATF 16949:2016 International Automotive Task Force</p>
-                            <p>Certified for ISO 9001:2015 Quality Management Systems</p>
-                            <p>Certified for ISO 9001:2015 Quality Management Systems</p>
-                            <p>Compliance with ANSI / ESD 520.20-2021 Requirements Standards</p>
-                            <p>Certified for 14001:2015 Environmental Management Systems</p>
-                            <p>Certified for 45001:2018 health and safety Systems</p>
-                            <p>Certified for ISO / IEC 27002-2013</p>
-                            <p>Certified for Responsible Business Alliance</p>
+                            <div className="px-4">
+                                <p className=" recognition ">Our Recognition & Awards</p>
+                                <div className="certified py-5 ">
+                                    <p>Certified for IATF 16949:2016 International Automotive Task Force</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Compliance with ANSI / ESD 520.20-2021 Requirements Standards</p>
+                                    <p>Certified for 14001:2015 Environmental Management Systems</p>
+                                    <p>Certified for 45001:2018 health and safety Systems</p>
+                                    <p>Certified for ISO / IEC 27002-2013</p>
+                                    <p>Certified for Responsible Business Alliance</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-5">
+                            <p className="text-uppercase certification mt-5">Our Gallery</p>
+                            <div className="px-3">
+                                <p className=" recognition ">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES</p>
+                                <div className="row  mt-5">
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_6} alt=""></img>
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_3} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1445} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1456} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1447} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1450} alt=""></img>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div className="col-12 col-lg-5">
-                    <p className="text-uppercase certification mt-5">Our Gallery</p>
-                    <div className="px-3">
-                        <p className=" recognition ">FUTURE READY infrastructure and State of the art facilities.</p>
-                        <div className="row  mt-5">
-                            <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="IMG_20190326_125922 6.png" alt=""></img>
-                                <img className="w-100 mb-4" src="IMG_20190326_125922 3.png" alt=""></img>
-                            </div>
-                            <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="Rectangle 1445.png" alt=""></img>
-                                <img className="w-100 mb-4" src="Rectangle 1456.png" alt=""></img>
-                            </div>
-                            <div className="col-12 col-lg-4">
-                                <img className="w-100 mb-4" src="Rectangle 1447.png" alt=""></img>
-                                <img className="w-100 mb-4" src="Rectangle 1450.png" alt=""></img>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
 
             </section>
-            {/* section-9 */}
+            
             <section className="container-fluid position-relative py-5 " id="section_10">
                 <div className="container">
-                    <h6 className="section9-head pt-5">News And Updates</h6>
+                    <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
                         <div className="col-12 col-lg-5 ps-lg-5 pe-lg-5 mb-5">
-                            <h6 className="section9-row-head">Annual Medical Camp for Employees</h6>
-                            <img className="mt-5  img-fluid" src="IMG_20190326_125922 8.png" alt=""></img>
+                            <h6 className="annual">Annual Medical Camp for Employees</h6>
+                            <img className="src" src={IMG_20190326_125922_8} alt=""></img>
                             <p className="section9-row-decs mt-4">Employee well-being programs [1] (also referred to as employee wellness programs) are structured initiatives put together by employers to...</p>
-                            <h6 className="section9-time">September 09, 2023</h6>
+                            <p className="times">September 09, 2023</p>
                         </div>
                         <div className="col-12 col-lg-7 ps-lg-5">
                             <div className="d-flex flex-column gap-4">
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className="img-fluid col-12 col-md-6" src="IMG_20190326_125922 9.png"  alt=""></img>
+                                        <img className="img-fluid col-12 col-md-6" src={IMG_20190326_125922_9}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
-                                            <h6 className="section9-row2-head">Dussehra Celebrations</h6>
+                                            <h6 className="annual">Dussehra Celebrations</h6>
                                             <p className=" section9-row2-decs">Dussehra is celebrated on the tenth day or Dashami tithi of the shukla paksha of Ashwin month on the Hindu calendar. Navratri 2023...</p>
                                             <h6 className="section9-time">October 15, 2023,</h6>
                                         </div>
@@ -496,9 +507,9 @@ function Product(){
                                 
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 10.png"  alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_10}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
-                                            <h6 className="section9-row2-head">Kaizen Program</h6>
+                                            <h6 className="annual">Kaizen Program</h6>
                                             <p className=" section9-row2-decs">Successful Kaizen program management involves a number of different elements. There is no single change or improvement that transforms a business.</p>
                                             <h6 className="section9-time">June 12, 2023,</h6>
                                         </div>
@@ -507,9 +518,9 @@ function Product(){
                                 
                                 <div className="container-fluid p-0">
                                     <div  className="row ">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 11.png"  alt=""></img>
-                                        <div className="ps-lg-4 col-12 col-md-6">
-                                            <h6 className="section9-row2-head">MES workshop technology awareness program </h6>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_11}  alt=""></img>
+                                        <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
+                                            <h6 className="annua">MES workshop technology awareness program </h6>
                                             <p className=" section9-row2-decs">Timely delivery capacity of the factory, improving the circulation performance of materials, but also improving the rate of return on production.</p>
                                             <h6 className="section9-time">October 12, 2023,</h6>
                                         </div>
@@ -521,11 +532,7 @@ function Product(){
         
                     </div>
                 </div>
-                <div className="rectangle-icon">
-                    <div className="bg-black rectangle" >
-                        <p className="text-nowrap spa"><span className="span">Get</span> to know us +</p>
-                    </div>
-                </div>
+                
             </section>
 
             

@@ -6680,7 +6680,7 @@ color:#FFFFFF
 
 
 
-#p_section-7 {
+#product_section-8 {
   position: relative;
 
 
@@ -6688,7 +6688,7 @@ color:#FFFFFF
   background-image: url('Images/IMG_20190326_125922\ 2.png');
 }
 
-#p_section-7::after {
+#product_section-8::after {
   content: "";
   position: absolute;
   top: 0;
@@ -6701,7 +6701,7 @@ color:#FFFFFF
   z-index: -1;
 }
 
-#p_section-7::before {
+#product_section-8::before {
   content: "";
   position: absolute;
   top: 0;
@@ -6714,78 +6714,35 @@ color:#FFFFFF
 
 
 
-#p_section-7 .certification {
+#product_section-8 .certification {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
+  font-size: 14px;
+
   letter-spacing: 0.35em;
   text-align: left;
   color: #FFFFFF;
 }
 
-#p_section-7 .recognition {
+#product_section-8 .recognition {
   font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #FFFFFF;
-  line-height: 50px;
+  font-size: 38px;
 
-}
-
-#p_section-7 .certified {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
 
-}
-.demo46{
-  background-color:rgba(9,133,65,255);background-image:url(Images/image\ 9.png);
-  
-}
-.demo47{
-  height: 150px;  
-}
-.certificates{
-  font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.35em;
-text-align: left;
-
-}
-.recognition{
-  font-family: Montserrat;
-font-size: 38px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.certified {
-  font-family: Montserrat;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
 
 }
 
-.demo54{
-  color: #1AC664;
-  background-color: #000000;
-}
+#product_section-8 .certified {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
 
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
 
 /* CUSTOMER LOGIN */
 #section_1{
