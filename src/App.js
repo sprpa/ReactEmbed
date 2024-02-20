@@ -14,7 +14,7 @@ import Sales from './eis website/Sales';
 function App() {
   return (
     <div className="App">
-   <Sales/>
+   <Gallery/>
      
     </div>
   );
