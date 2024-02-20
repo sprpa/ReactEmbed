@@ -1,81 +1,33 @@
 import React from "react";
 
+import Group_2 from "../Images/Group 2.png"
+import image_35 from "../Images/image 35.jpg"
+import image_36 from "../Images/image 36.jpg"
+import image_37 from "../Images/image 37.png"
+import image_38 from "../Images/image 38.png"
+import image_39 from "../Images/image 39.png"
+import P1143581_1 from "../Images/P1143581 1.png"
+import IMG_20190326_125922_6 from "../Images/IMG_20190326_125922 6.png"
+import IMG_20190326_125922_3 from "../Images/IMG_20190326_125922 3.png"
+import Rectangle_1445 from "../Images/Rectangle 1445.png"
+import Rectangle_1447 from "../Images/Rectangle 1447.png"
+import Rectangle_1450 from "../Images/Rectangle 1450.png"
+import Rectangle_1456 from "../Images/Rectangle 1456.png"
+import IMG_20190326_125922_8 from "../Images/IMG_20190326_125922 8.png"
+import IMG_20190326_125922_9 from "../Images/IMG_20190326_125922 9.png"
+import IMG_20190326_125922_10 from "../Images/IMG_20190326_125922 10.png"
+import IMG_20190326_125922_11 from "../Images/IMG_20190326_125922 11.png"
 
 function ElectronicManufacturing(){
     return(
         <div className="emf">
-            <nav className="navbar navbar-expand-xl sticky-top back">
-                <div className="container-fluid">
-                <a className="navbar-brand me-auto ps-lg-5 ps-3" href="index.html">
-                    <img src="Subtract.png" alt="Logo"  className="img-fluid"></img>
-                        <span className="text-black-50 ms-5 fs-6 fw-bold d-none d-md-inline">Call US:</span> <span class="text-black fs-6 fw-bold d-none d-md-inline">+91 70326 66100</span>
-                </a>
-                <div className="pe-3">
-                    <span><img src="Union.svg" className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" alt=""></img></span>  
-                </div>
-        
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav position-relative mx-auto mb-2 mb-lg-0 gap-0 gap-xxl-3">
-                    <li className="nav-item ">
-                        <a className="nav-link fw-bold text-black-50" href="aboutus.html">About Us</a>
-                    </li>
-                    <li className="nav-item dropdown ">
-                        <a className="nav-link fw-bold text-black-50 " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Capabilities <span class="fs-6 ">+</span></a>
-                        <ul className="dropdown-menu position-absolute rounded-0 margin">
-                        <li className=""><a className="dropdown-item  px-5 " href="Npi-page.html">New Product Introduction</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="pcb-page.html">PCB Assembly & Box Build</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="Electroinc-manufacturing.html">Electronic Manufacturing</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="#">Flexible Volume High Mix</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="Product-testing.html">Product Testing</a></li>
-                        <li className=""><a className="dropdown-item px-5 " href="After_sales.html">After Sales & Warranty</a></li>
-                        </ul>
-                    </li>
-                    <li className="nav-item dropdown ">
-                        <a className="nav-link fw-bold text-black-50 " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Customer & Partners</a>
-                        <ul className="dropdown-menu position-absolute rounded-0 top">
-                        <li className=""><a class="dropdown-item  px-5 " href="Customer_Login.html">Customer Login</a></li>
-                        </ul>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="Galary.html">Gallery</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="Contact_Us.html">Contact Us</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link fw-bold text-black-50" href="#">Blog</a>
-                    </li>
-                    </ul>
-
-                    <ul className="navbar-nav  ms-auto gap-2 me-3 mb-2 d-none d-xxl-flex mb-lg-0">
-          <li className="nav-item">
-            <a className="nav-link" href="#"><i className="fas fa-brands fa-facebook-square fs-5 text-black-50"></i></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#"><i className="fa-brands fa-instagram fs-5 text-success"></i></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#"><i className="fas fa-brands fa-twitter fs-5 text-black-50"></i></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#"><i className="fas fa-brands fa-youtube fs-5 text-black-50"></i></a>
-          </li>
-        </ul>
-
-                    <span className="navbar-text">
-                    <img src="Group 3597.svg" className="img-fluid d-none d-xxl-flex" alt=""></img>
-                    </span>
-
-                </div>
-
-                </div>
-            </nav>
+            
 
             {/* head section */}
-            <section className=" py-4 ak"  id="section_1">
+            <section className=" py-4"  id="em_section_1">
                 <div className="container">
-                    <h6 className="about text-uppercase">Capabilities</h6>
-                    <h6 className="one text-white ">
+                    <p className="about">CAPABILITIES</p>
+                    <h6 className="one">
                         Electronic Manufacturing
                     </h6>
                 </div>
@@ -98,7 +50,7 @@ function ElectronicManufacturing(){
                     </div>
                 </div>
                 <div className="position-absolute group" /*style="top: 45%; right: 3%;"*/>
-                    <img src="Group 2.png" alt=""></img>
+                    <img src={Group_2} alt=""></img>
                 </div>
             </section>
 
@@ -219,25 +171,25 @@ function ElectronicManufacturing(){
                                 has largely replaced through-hole technology
                                     due to its efficiency, space-saving benefits,
                                     and suitability for high-volume production.</p>
-                            <img className="row1-image mt-3" src="image 35.jpg" alt=""></img>
+                            <img className="row1-image mt-3" src={image_35} alt=""></img>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6  mb-5 ps-lg-1">
                             <h6 className="row2-heading">Plated Through Hole Boards (PTH)</h6>
-                            <img  className="row2-image mt-3" src="image 36.jpg" alt=""></img>
+                            <img  className="row2-image mt-3" src={image_36} alt=""></img>
                             <p className="row2-decs mt-3">"Plated Through Hole (PTH) boards" service refers to a method of electronic circuit board manufacturing where holes are drilled through the board, and these holes are then plated with metal to create electrical connections between different layers of the board. This process is in contrast to surface mount technology (SMT), where components are placed directly onto the surface of the board.</p>
                         </div>
 
                     </div>
                     <div className="row my-5">
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3 ">
-                            <img className="w-100" src="image 37.png" alt=""></img>
+                            <img className="w-100" src={image_37} alt=""></img>
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <img className="w-100" src="image 38.png" alt=""></img>
+                            <img className="w-100" src={image_38} alt=""></img>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">
-                            <img className="w-100" src="image 39.png" alt=""></img>
+                            <img className="w-100" src={image_39} alt=""></img>
                         </div>
                     </div>
 
@@ -388,7 +340,7 @@ function ElectronicManufacturing(){
                             <p className="des-heading">Our boards are being used in sophisticated
                                 products catering for various commercial
                                     and industrial segments.</p>
-                            <img className="mt-4 px-2 pt-3 pb-5 flex" src="P1143581 1.png" alt=""></img>
+                            <img className="mt-4 px-2 pt-3 pb-5 flex" src={P1143581_1} alt=""></img>
 
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6">
@@ -499,67 +451,61 @@ function ElectronicManufacturing(){
 
             </section>
             
-            <section className="container-fluid p-0 emf" id="p_section-8">
-                <div className="demo46">
-                    <div className="container py-5">
-                        <div className="row">
-                                <div className="col-12 col-lg-6">
-                                    <h6 className="certificates mt-5 color">CERTIFICATIONS & COMPLIANCES</h6>
-                                    <div className="ps-lg-3">
-                                        <h6 className=" recognition mt-4 color">Our Recognition & Awards</h6>
-                                        <div>
-                                            <h6 className="certified mt-5 color"> Certified for IATF 16949:2016 International Automotive Task Force</h6>
-                                            <h6 className="certified mt-3 color">Certified for ISO 9001:2015 Quality Management Systems</h6>
-                                            <h6 className="certified mt-3 color">Compliance with ANSI / ESD 520.20-2021 Requirements Standards</h6>
-                                            <h6 className="certified mt-3 color">Certified for 14001:2015 Environmental Management Systems</h6>
-                                            <h6 className="certified mt-3 color">Certified for 45001:2018 health and safety Systems</h6>
-                                            <h6 className="certified mt-3 color">Certified for ISO / IEC 27002-2013</h6>
-                                            <h6 className="certified mt-3 color">Certified for Responsible Business Alliance</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-12 col-lg-6">
-                                    <h6 className="certificates mt-5 color" >Our Gallery</h6>
-                                    <div className="ps-lg-3">
-                                        <h6 className=" recognition mt-4 color">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES.</h6>
-                                        <div className="row my-5">
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 demo47" src="IMG_20190326_125922 3.png" alt=""></img>
-                                                    <img className="w-100 demo47"  src="IMG_20190326_125922 7.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 col-12 demo47"  src="Rectangle 1445.png" alt=""></img>
-                                                    <img className="w-100 demo47" src="Rectangle 1447.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-sm-4 col-lg-4 mb-3 section8-images">
-                                                <div className="d-flex flex-column gap-3">
-                                                    <img className="w-100 demo47"  src="Rectangle 1450.png" alt=""></img>
-                                                    <img className="w-100 demo47"  src="Rectangle 1456.png" alt=""></img>
-                                                </div>
-                                            </div>
-                                        
-                                        </div>
-                                    </div>
+            <section className="container-fluid " id="emf_section-7">
+                <div className="">
+                    <div className="row p-5">
+                        <div className="col-12 col-lg-7">
 
+                            <p className="text-uppercase certification mt-5">CERTIFICATIONS & COMPLIANCES</p>
+
+                            <div className="px-4">
+                                <p className=" recognition ">Our Recognition & Awards</p>
+                                <div className="certified py-5 ">
+                                    <p>Certified for IATF 16949:2016 International Automotive Task Force</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Certified for ISO 9001:2015 Quality Management Systems</p>
+                                    <p>Compliance with ANSI / ESD 520.20-2021 Requirements Standards</p>
+                                    <p>Certified for 14001:2015 Environmental Management Systems</p>
+                                    <p>Certified for 45001:2018 health and safety Systems</p>
+                                    <p>Certified for ISO / IEC 27002-2013</p>
+                                    <p>Certified for Responsible Business Alliance</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-5">
+                            <p className="text-uppercase certification mt-5">Our Gallery</p>
+                            <div className="px-3">
+                                <p className=" recognition ">FUTURE READY INFRASTRUCTURE AND STATE OF THE ART FACILITIES</p>
+                                <div className="row  mt-5">
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_6} alt=""></img>
+                                        <img className="w-100 mb-4" src={IMG_20190326_125922_3} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1445} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1456} alt=""></img>
+                                    </div>
+                                    <div className="col-12 col-lg-4">
+                                        <img className="w-100 mb-4" src={Rectangle_1447} alt=""></img>
+                                        <img className="w-100 mb-4" src={Rectangle_1450} alt=""></img>
+                                    </div>
+                                </div>
+
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
+
             </section>
             
-            <section className="container-fluid position-relative py-5 " id="section_9">
+            <section className="container-fluid position-relative py-5 " id="section_10">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
                         <div className="col-12 col-lg-5 ps-lg-5 pe-lg-5 mb-5">
                             <h6 className="annual">Annual Medical Camp for Employees</h6>
-                            <img className="src" src="IMG_20190326_125922 8.png" alt=""></img>
+                            <img className="src" src={IMG_20190326_125922_8} alt=""></img>
                             <p className="section9-row-decs mt-4">Employee well-being programs [1] (also referred to as employee wellness programs) are structured initiatives put together by employers to...</p>
                             <p className="times">September 09, 2023</p>
                         </div>
@@ -567,7 +513,7 @@ function ElectronicManufacturing(){
                             <div className="d-flex flex-column gap-4">
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className="img-fluid col-12 col-md-6" src="IMG_20190326_125922 9.png"  alt=""></img>
+                                        <img className="img-fluid col-12 col-md-6" src={IMG_20190326_125922_9}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Dussehra Celebrations</h6>
                                             <p className=" section9-row2-decs">Dussehra is celebrated on the tenth day or Dashami tithi of the shukla paksha of Ashwin month on the Hindu calendar. Navratri 2023...</p>
@@ -578,7 +524,7 @@ function ElectronicManufacturing(){
                                 
                                 <div className="container-fluid p-0">
                                     <div className="row">
-                                        <img className=" img-fluid col-12 col-md-6" src="IMG_20190326_125922 10.png"  alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_10}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
                                             <h6 className="annual">Kaizen Program</h6>
                                             <p className=" section9-row2-decs">Successful Kaizen program management involves a number of different elements. There is no single change or improvement that transforms a business.</p>
@@ -589,9 +535,9 @@ function ElectronicManufacturing(){
                                 
                                 <div className="container-fluid p-0">
                                     <div  className="row ">
-                                        <img className=" img-fluid col-12 col-md-6 mes" src="IMG_20190326_125922 11.png"  alt=""></img>
+                                        <img className=" img-fluid col-12 col-md-6" src={IMG_20190326_125922_11}  alt=""></img>
                                         <div className="ps-lg-4 my-3 my-lg-0 col-12 col-md-6">
-                                            <h6 className="annual">MES workshop technology awareness program </h6>
+                                            <h6 className="annua">MES workshop technology awareness program </h6>
                                             <p className=" section9-row2-decs">Timely delivery capacity of the factory, improving the circulation performance of materials, but also improving the rate of return on production.</p>
                                             <h6 className="section9-time">October 12, 2023,</h6>
                                         </div>
@@ -606,79 +552,7 @@ function ElectronicManufacturing(){
                 
             </section>
 
-            <footer className="position-relative footer" >
-                <div className="container  p-sm-3 p-md-4 p-lg-5  py-5">
-                    <div className="">
-                        <div className="row ">
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className=" address-layout ">
-                                    <h6 className="footer-heading mb-4 ">Registered Office</h6>
-                                    <p className="plant-address-des">Plot No.25/B, HardwarePark, Kancha
-                                        Imarat, Pahadi Shareef, Srisailam 
-                                        Highway, Hyderabad â€“ 500005,
-                                        Telangana, India.</p>
-
-                                        <h6 className="footer-heading mb-4">Plant Address</h6>
-                                    <p className="plant-address-des">Plot No.5, Fab City SEZ, 
-                                        Srinagar Village, Maheshwaram Mandal, 
-                                        Ranga Reddy District, Hyderabad â€“ 501359,
-                                        Telangana, India.</p>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="quicklink-layout">
-                                    <h6 className="quick-head">Quick links</h6>
-                                    <p className="des-link m-0">Home</p>
-                                    <p className="des-link m-0">About us</p>  
-                                    <p className="des-link m-0">Capabilities</p> 
-                                    <p className="des-link m-0">Facilities</p>
-                                    <p className="des-link m-0">Industries</p>
-                                    <p className="des-link m-0">Gallery</p>
-                                    <p className="des-link m-0">Clients</p>
-                                    <p className="des-link m-0">Contact Us</p>
-                                    <p className="des-link m-0">Blog</p>
-
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="contact-layout">
-                                    <h6 className="contact-head">Contact Us</h6>
-                                    <h6 className="contact-phone">+91-7032666100</h6>
-                                    <h6 className="contact-email">mail: enquiry@embedits.com</h6>
-                                    <h6 className="social">Social</h6>
-                                    <div className="d-flex justify-content-between mt-5 width" >
-                    <i className="fb-layout fas fa-brands fa-facebook-f"></i>
-                    <i className="insta-layout fas fa-brands fa-instagram"></i>
-                    <i className="twi-layout fas fa-brands fa-twitter"></i>
-                    <i className="you-layout fas fa-brands fa-youtube"></i>
-                  </div>
-
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-5">
-                                <div className="location-layout">
-                                    <h6 className="location-head">Location</h6>
-                                    <div className="location-map mt-3">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15245.827696226495!2d78.4921026!3d17.1966093!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba4d8b485172d%3A0x935b54b1d7579269!2sEmbedded%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1703761792241!5m2!1sen!2sin" width="100%" height="290" /*style="border:0;"*/ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="customer-login">
-                    <div className=" whats-app-icon login">
-                        <img className="img-fluid " src="Group 3706.png" alt=""></img>
-                    </div> 
-                </div>
-                
-
-                <div className="copy">
-                    <h6 className="copyright py-4 text-center m-0">Â© 2023 embedits.com, All rights reserved</h6>
-
-                </div>
-            </footer>
+            
             
         </div>
     )

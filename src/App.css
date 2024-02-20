@@ -4795,6 +4795,30 @@ color: #00923F;
 }
 
 * ELECTRONIC MANUFACTURING */
+
+#em_section_1 .about{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.35em;
+  text-align: left;
+  color:#1AC664;
+}
+#em_section_1 .one{
+  font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 59px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#em_section_1{
+  background: #01813B;
+  color:white
+}
 .emf .heading {
     font-size: 18px;
     font-weight: 700;
@@ -5101,147 +5125,72 @@ color:#FFFFFF
     left: 205px;
 
 }
+#emf_section-7 {
+  position: relative;
 
 
-
-#p_section-8{
-    background-color: #01813B;
-}
-#p_section-8 .head h6{
-    font-family:'Montserrat',sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.35em;
-    text-align: left;
-    color: #FFFFFF;    
-}
-#p_section-8 .head h5{
-    font-family:'Montserrat',sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
-#p_section-8 .head li p{
-    margin-bottom: 30px;
-    font-family:'Montserrat',sans-serif;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
-#p_section-8 .rectangle p{
-    padding-top: 10px;
-    padding-left: 18px;
-    color: #00A94D;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-
-}
-#p_section-8  .rectangle{
-    width: 59px;
-    height: 52px;
-} 
-#p_section-8 .color{
-    color: #FFFFFF;
-}
-.demo46{
-    background-color:rgba(9,133,65,255);background-image:url(Images/image\ 9.png);
-    
-}
-.demo47{
-    height: 150px;  
-}
-.certificates{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.35em;
-text-align: left;
-
-}
-.recognition{
-    font-family: Montserrat;
-font-size: 38px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.certified {
-    font-family: Montserrat;
-font-size: 20px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-
+  background-repeat: repeat;
+  background-image: url('Images/IMG_20190326_125922\ 2.png');
 }
 
-.demo54{
-    color: #1AC664;
-    background-color: #000000;
+#emf_section-7::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  background-color: #01813B;
+  z-index: -1;
 }
-#section_9 .news{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.35em;
-text-align: left;
-color:#056732;
 
-}
-#section_9 .annual{
-    font-family: Montserrat;
-font-size: 36px;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-color:#2D2D2D
-}
-#section_9 .times{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #00923F;    
+#emf_section-7::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
-}
-#section_9 .get{
-    width: 175px;
-height: 52px;
-top: 10235px;
-left: 1565px;
-color: #00923F;
-}
-#section_9 .src{
-    width: 450px;
-    height: 284px;
-    top: 9719px;
-    left: 240px;
+  z-index: -1;
 }
 
 
 
-.ak{
-  background-color: #00A94D;
+#emf_section-7 .certification {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+  letter-spacing: 0.35em;
+  text-align: left;
+  color: #FFFFFF;
 }
+
+#emf_section-7 .recognition {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+
+
+}
+
+#emf_section-7 .certified {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+
+
+
 
 /* CONTCAT US */
 @media (min-width:100px) and (max-width:576px){
