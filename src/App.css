@@ -1,178 +1,59 @@
- 
 
 
-/* navbar css */
+#section_10.demo54{
+  color: #1AC664;
+  background-color: #000000;
+}
+#section_10 .news{
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.35em;
+text-align: left;
+color:#056732;
 
- 
-#navbar .dropdown .dropdown-menu li a {
-  font-family:'Montserrat',sans-serif;
-  font-size: 16px;
+}
+#section_10 .annual{
+  font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color:#2D2D2D
+}
+#section_10 .annua{
+  font-family: Montserrat;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:#2D2D2D
+}
+#section_10 .times{
+  font-family: Montserrat;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
-  color: #5A5959;
-}
-#navbar .round{
-margin-top: 39px;
- background-color: #E1E1E1;
-}
-#navbar .dropdown .dropdown-menu li a.active{
-  background-color: #00A94D !important;
-  color: #FFFFFF;
-}
-
-#navbar .dropdown .dropdown-menu li a:hover{
-  background-color: #00A94D !important;
-  color: #FFFFFF;
-}
-
-#navbar .style{
-  background-color: rgba(255, 255, 255, 0.774); 
-  height:120px !important;
-}
-
-/* footer */
-.plant-address-des{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.heading{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-
-.quick-head{
-  font-family:'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.des-link{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 35px;
-  letter-spacing: 0px;
-  text-align: left;
-  color:white;
-}
-
-.contact-head{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.contact-phone{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.contact-email{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0px;
-  text-align: left;
-  color:white;
-}
-.social{
-font-size: 29px;
-font-weight: 600;
-line-height: 35px;
-letter-spacing: 0px;
-text-align: left;
-color:white;
-}
-.fb-layout{
-  width: 12.63px;
-  height: 24.35px;
- color: white;
- font-size: 28px;
-}
-.insta-layout{
-  width: 24.36px;
-  height: 24.36px;
-  color: white;
- font-size: 28px;
+  color: #00923F;    
 
 }
-.twi-layout{
-  width: 26.59px;
-  height: 21.6px;
-  color: white;
- font-size: 28px;
-
+#section_10 .get{
+  width: 175px;
+height: 52px;
+top: 10235px;
+left: 1565px;
+color: #00923F;
 }
-.you-layout{
-  width: 30.14px;
-  height: 21.35px;
- color: white;
- font-size: 28px;
-}
-.location-head{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-
-}
-.copyright{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0em;
-  color: #D7D7D7;
-}
-
-.footer-heading{
-font-size: 27px;
-font-weight: 600;
-line-height: 33px;
-letter-spacing: 0px;
-text-align: left;
-color:white
-}
-
-.footers{
-  background-color: #01813B;
-}
-.bgcolor{
-  background-color: #096935;
-}
-.border{
-  border:0;
-  width:100%;
-   height:290px;
-}
-.width{
-  width: 150px;
+#section_10 .src{
+  width: 350px;
+  height: 244px;
+  top: 9719px;
+  left: 240px;
 }
 
 
@@ -4002,67 +3883,9 @@ height: 90px;
   }
   }
 
-/* LAST SECOND PAGE */
-#section_10.demo54{
-  color: #1AC664;
-  background-color: #000000;
-}
-#section_10 .news{
-  font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.35em;
-text-align: left;
-color:#056732;
-
-}
-#section_10 .annual{
-  font-family: Montserrat;
-font-size: 36px;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-color:#2D2D2D
-}
-#section_10 .annua{
-  font-family: Montserrat;
-font-size: 26px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color:#2D2D2D
-}
-#section_10 .times{
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #00923F;    
-
-}
-#section_10 .get{
-  width: 175px;
-height: 52px;
-top: 10235px;
-left: 1565px;
-color: #00923F;
-}
-#section_10 .src{
-  width: 350px;
-  height: 244px;
-  top: 9719px;
-  left: 240px;
-}
-
 /* ABOUT PAGE */
 /* about_section-1 page css  */
-/*section-1*/
-@media only screen and (min-width: 992px){
+
 #about_section_1 .about{
   font-family: Montserrat;
   font-size: 18px;
@@ -4697,199 +4520,6 @@ color: #00923F;
   height: 284px;
   top: 9719px;
   left: 240px;
-}
-}
-
-
-/*NAVBAR*/
-.dropdown .dropdown-menu li a {
-  font-family:'Montserrat',sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #5A5959;
-}
-.dropdown .dropdown-menu li a.active{
-  background-color: #00A94D !important;
-  color: #FFFFFF;
-}
-.dropdown .dropdown-menu li a:hover{
-  background-color: #00A94D !important;
-  color: #FFFFFF;
-}
-/*navbar*/
-.back{
-  background-color: rgba(255, 255, 255, 0.774);
-  height:120px !important;
-}
-.margin{
-  margin-top: 39px;
-  background-color: #E1E1E1;
-}
-.top{
-  margin-top: 39px;
-  background-color: #E1E1E1;
-}
-
-/* FOOTER */
-.plant-address-des{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.heading{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-
-.quick-head{
-  font-family:'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.des-link{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 35px;
-  letter-spacing: 0px;
-  text-align: left;
-  color:white;
-}
-
-.contact-head{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.contact-phone{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-}
-.contact-email{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0px;
-  text-align: left;
-  color:white;
-}
-.social{
-font-size: 29px;
-font-weight: 600;
-line-height: 35px;
-letter-spacing: 0px;
-text-align: left;
-color:white;
-}
-.fb-layout{
-  width: 12.63px;
-  height: 24.35px;
- color: white;
- font-size: 28px;
-}
-.insta-layout{
-  width: 24.36px;
-  height: 24.36px;
-  color: white;
- font-size: 28px;
-
-}
-.twi-layout{
-  width: 26.59px;
-  height: 21.6px;
-  color: white;
- font-size: 28px;
-
-}
-.you-layout{
-  width: 30.14px;
-  height: 21.35px;
- color: white;
- font-size: 28px;
-}
-.location-head{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 33px;
-  letter-spacing: 0px;
-  text-align: left;
-  color: white;
-
-}
-.copyright{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0em;
-  color: #D7D7D7;
-}
-.list-section-npi{
-font-size: 22px;
-font-weight: 600;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-}
-.footer-heading{
-font-size: 27px;
-font-weight: 600;
-line-height: 33px;
-letter-spacing: 0px;
-text-align: left;
-color:white
-}
-/* footer */
-.footer{
-  background-color: #01813B;
-}
-.fan{
-
-color:#FFFFFF
-}
-.fonta{
-  width: 173.43px;
-height: 24.36px;
-top: 10782px;
-left: 1002.53px;
-padding: 0px, 0px, 0px, 0px;
-
-}
-.login{
-  text-align: end;
-}
-.copy{
-  background-color: #096935;
-}
-.width{
-  width: 150px;
 }
 /* AFTER SALES */
 
