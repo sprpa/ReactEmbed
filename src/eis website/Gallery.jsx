@@ -167,7 +167,7 @@ function Gallery(){
             </section>
             {/* error carousel */}
 
-            <section className="contact" id="contact_section-6">
+            <section className="contact" id="gallery_section-3">
                 <section className="py-5">
                     <div className="container ">
                     <h6 className="advantages" >ADVANTAGES</h6>
@@ -291,7 +291,7 @@ function Gallery(){
             </section>
 
 
-            <section className="py-5 demo53"  id="contact_section-8">  
+            <section className="py-5 demo53"  id="gallery_section-4">  
             <div>
                 <h6 className="our">OUR CLIENTS</h6>
                 <h6 className="growth">Growth Enablers</h6>
@@ -455,7 +455,7 @@ function Gallery(){
             </div>
             </section>
 
-            <section className="container-fluid position-relative py-5 " id="section_10">
+            <section className="container-fluid position-relative py-5 " id="gallery_section_5">
                 <div className="container">
                     <h6 className="news pt-5">News And Updates</h6>
                     <div className="row mt-5">
