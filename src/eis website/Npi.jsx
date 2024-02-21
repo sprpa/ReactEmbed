@@ -568,4 +568,4 @@ function Npi() {
   );
 }
 
-export default Npi;
+export default Npi

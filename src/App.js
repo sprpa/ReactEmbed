@@ -10,12 +10,13 @@ import Gallery from './eis website/Gallery'
 import Product from './eis website/Product';
 import Sales from './eis website/Sales';
 import Pcb from './eis website/pcb';
+import Npi from './eis website/Npi';
 
 
 function App() {
   return (
     <div className="App">
-   <Sales />
+   <Npi/>
      
     </div>
   );
