@@ -16,7 +16,7 @@ import Npi from './eis website/Npi';
 function App() {
   return (
     <div className="App">
-   <Npi/>
+   <About />
      
     </div>
   );
